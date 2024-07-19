@@ -15,3 +15,5 @@ lalu kerjakan quiz quiznya dan ketika sudah selesai menyelesaikan quiz, kalian b
 ## Jangan Lupa
 - Isi judul Pull Request dengan nickname kalian
 - Bila ada 5 Soal dalam satu readme.md maka bikin 5 file js untuk jawaban quiznya dalam folder quiz yang kalian kerjakan, bila ada 4 maka buatlah 4 file js untuk jawaban quiznya
+
+![image](https://github.com/user-attachments/assets/a228abfc-f40d-4f79-82d5-428a9da2df74)
