@@ -16,7 +16,6 @@ Selamat datang di RPN Phase-0 Week 1! Repo ini dibuat khusus untuk pemula yang i
 3. **Looping**
    - For loop
    - While loop
-   - Do...while loop
 
 4. **Functions**
    - Mendefinisikan fungsi
