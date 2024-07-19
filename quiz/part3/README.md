@@ -53,4 +53,4 @@ let input = 5
 Tips pengerjaan ada di video berikut :
 [Looping](https://youtu.be/kyobpgoqx2c)
 
-[Materi Looping](../../study-materials/part5/README.md)
+[Materi Looping](../../study-materials/part5.md)
