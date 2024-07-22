@@ -27,6 +27,14 @@ Selamat datang di RPN Phase-0 Week 1! Repo ini dibuat khusus untuk pemula yang i
 2. **Coba tulis kode Anda sendiri!** Setiap bagian menyertakan latihan yang bisa Anda coba untuk menguji pemahaman Anda.
 3. **Bergabunglah dengan komunitas.** Jangan ragu untuk bertanya atau berdiskusi dengan sesama pemula di bagian issues atau melalui pull requests.
 
+## Week 1 Study Materials
+- [Apa saja yang harus disiapkan](./study-materials/part1.md)
+- [Belajar Algoritma](./study-materials/part2.md)
+- [Sintaks JavaScript](./study-materials/part3.md)
+- [Push Hasil Belajar ke Github](./study-materials/part4.md)
+- [Belajar Looping](./study-materials/part5.md)
+- [Belajar Function](./study-materials/part6.md)
+
 ## Dukung Kami
 
 Jika Anda menemukan repo ini bermanfaat, jangan lupa untuk memberikan bintang ⭐ di bagian atas halaman. Dukung kami dengan cara sebarkan ke teman-teman kalian, karena materi ini gratis!

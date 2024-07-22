@@ -4,12 +4,12 @@ Ikuti baca-baca per part karena di week 1 itu khusus untuk pemula yang paling pe
 Good Luck wahai calon pelajar yang akan jadi nolep hehe.
 
 ## Ikuti Urutan Part
-- [Part 1](./part1.md)
-- [Part 2](./part2.md)
-- [Part 3](./part3.md)
-- [Part 4](./part4.md)
-- [Part 5](./part5.md)
-- [Part 6](./part6.md)
+- [Apa saja yang harus disiapkan](./part1.md)
+- [Belajar Algoritma](./part2.md)
+- [Sintaks JavaScript](./part3.md)
+- [Push Hasil Belajar ke Github](./part4.md)
+- [Belajar Looping](./part5.md)
+- [Belajar Function](./part6.md)
 
 ## Dukung Kami
 
