@@ -8,16 +8,16 @@ Hi para siswa nolep, disini pembelajaran menggunakan javascript sebagai tools be
 
 terkait apa saja yang harus disiapkan adalah:
 
-> Download Git
-> Bikin akun Github
-> Download VSCode
-> Download NodeJS
+- [Download Git](https://git-scm.com/downloads)
+- [Bikin akun Github](https://github.com/)
+- [Download VSCode](https://code.visualstudio.com/download)
+- [Download NodeJS](https://nodejs.org/en)
 
-***BINGUNG SOAL INSTALA GIT?? SAMA GUA JUGA GITU, PALING NEXT NEXT AJA YAK WKWK***
+***BINGUNG SOAL INSTALL GIT?? SAMA GUA JUGA GITU, PALING NEXT NEXT AJA YAK WKWK***
 
 setelah install kalian bisa cek apakah git sudah terinstall dengan command
-`git --version`
 restart cmd nya dulu baru pake command diatas
+`git --version`
 
 untuk cek apakah nodejs sudah terinstall bisa dengan command berikut
 `node -v`
