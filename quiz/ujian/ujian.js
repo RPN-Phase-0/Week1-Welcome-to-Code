@@ -40,3 +40,35 @@ console.log(balikKata('John Doe')); // eoD nhoJ
 console.log(balikKata('I am a bookworm')); // mrowkoob a ma I
 console.log(balikKata('Coding is my hobby')); // ybboh ym si gnidoC
 console.log(balikKata('Super')); // repuS
+
+
+// Problem
+// Diberikan sebuah function konversiMenit(menit) yang menerima satu parameter berupa angka yang merupakan ukuran waktu 
+// dalam menit. Function akan me-return string waktu dalam format jam:menit berdasarkan menit tersebut. 
+// Contoh, jika menit adalah 63, maka function akan me-return "1:03".
+
+function konversiMenit(menit) {
+    // you can only write your code here!
+    let jam = (menit - (menit % 60)) / 60;
+    let liatmenit = menit % 60;
+
+    let menitt = 0
+
+    if (menit % 60 == 0) {
+        menitt = "0" + liatmenit;
+    } else if (liatmenit < 10 ) {
+        menitt = "0" + liatmenit;
+    } else {
+        menitt = liatmenit
+    }
+
+    return `${jam}:${menitt}`;
+
+}
+  
+// TEST CASES
+console.log(konversiMenit(63)); // 1:03
+console.log(konversiMenit(124)); // 2:04
+console.log(konversiMenit(53)); // 0:53
+console.log(konversiMenit(88)); // 1:28
+console.log(konversiMenit(120)); // 2:00
