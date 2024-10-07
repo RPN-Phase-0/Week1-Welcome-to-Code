@@ -78,3 +78,20 @@ for ( let i = 0; i < 100; i = i + 9 ) {
         console.log(`${i} kelipatan dari 10`)
     }
 }
+
+// Problem buatlah bintang seperti berikut
+let input = 5
+
+for (let i = 0; i < 5; i++) {
+    let hasil = "*"
+    for ( a = 0; a < i; a++) {
+        hasil = hasil + "*"
+    }
+    console.log(hasil)
+}
+//hasilnya
+//*
+//**
+//***
+//****
+//*****
