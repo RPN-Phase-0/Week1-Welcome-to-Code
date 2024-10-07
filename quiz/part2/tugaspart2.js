@@ -34,3 +34,12 @@ let exampleFirstWord = word[0] + word[1] + word[2] + word[3] + word[4] + word[5]
 + word[18] + word[19] + word[20] + word[21] + word[22] + word[23] + word[24];
 
 console.log('First Word: ' + exampleFirstWord);
+
+
+// Problem
+// Mirip seperti soal nomor 2, namun kali ini gunakan substring untuk mengambil potongan dari tiap kata!
+
+let word3 = 'wow JavaScript is so cool';
+let exampleFirstWord3 = word3.substring(0, 25);
+
+console.log('First Word: ' + exampleFirstWord3);
