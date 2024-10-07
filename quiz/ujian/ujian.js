@@ -72,3 +72,39 @@ console.log(konversiMenit(124)); // 2:04
 console.log(konversiMenit(53)); // 0:53
 console.log(konversiMenit(88)); // 1:28
 console.log(konversiMenit(120)); // 2:00
+
+//   Problem
+//   Diberikan sebuah function xo(str) yang menerima satu parameter berupa string. 
+//   Function akan me-return true jika jumlah karakter x sama dengan jumlah karakter o, dan false jika tidak.
+
+function xo(str) {
+    // you can only write your code here!
+
+    let cekX = ""
+    let cekY = ""
+    let hasil = ""
+
+    for (i = str.length - 1; i >= 0; i-- ) {
+        if (str[i] == "x") {
+            cekX = cekX + str[i]
+        } else if (str[i] == "o") {
+            cekY = cekY + str[i]
+        }
+    }
+
+    if ( cekX.length == cekY.length) {
+       hasil = hasil + true
+    } else {
+        hasil = hasil + false
+    }
+
+    return hasil
+}
+
+  
+// TEST CASES
+console.log(xo('xoxoxo')); // true
+console.log(xo('oxooxo')); // false
+console.log(xo('oxo')); // false
+console.log(xo('xxxooo')); // true
+console.log(xo('xoxooxxo')); // true
