@@ -43,3 +43,22 @@ let word3 = 'wow JavaScript is so cool';
 let exampleFirstWord3 = word3.substring(0, 25);
 
 console.log('First Word: ' + exampleFirstWord3);
+
+// Problem
+// Mirip seperti soal nomor 3, tapi tampilkan juga panjang kata masing-masingnya!
+
+
+let word4 = 'wow JavaScript is so cool';
+let exampleFirstWord1 = word4.substring(0, 3);
+let exampleFirstWord2 = word4.substring(4, 14);
+let exampleFirstWord3 = word4.substring(15, 17);
+let exampleFirstWord4 = word4.substring(18, 20);
+let exampleFirstWord5 = word4.substring(21, 25);
+
+let firstWordLength = exampleFirstWord4.length;
+
+console.log('First Word: ' + exampleFirstWord1 + ', with length: ' + firstWordLength);
+console.log(`Two Word: ${exampleFirstWord2} with length: ${exampleFirstWord2.length}
+Tre Word: ${exampleFirstWord3} with length: ${exampleFirstWord3.length}
+Four Word: ${exampleFirstWord4} with length: ${exampleFirstWord4.length}
+Fifth Word: ${exampleFirstWord5} with length: ${exampleFirstWord5.length}`);
