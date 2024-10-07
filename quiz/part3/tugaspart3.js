@@ -33,3 +33,24 @@ for (i = 10; i > 0; i--) {
     console.log(`lopping kedua`)
     console.log(`output looping ini mundur ${i}`)
 }
+
+// Hint: kamu akan menggunakan kondisional juga di kasus ini.
+
+// Problem
+// Buatlah sebuah perulangan 1 - 100 dengan pertambahan counter sebanyak 1
+// Di dalam perulangan, periksa setiap angka counter:
+
+// Apabila angka counter adalah angka genap, tuliskan GENAP
+// Apabila angka counter adalah angka ganjil, tuliskan GANJIL
+
+// Buatlah sebuah perulangan 1 - 100 dengan pertambahan counter sebanyak 1
+for (i = 0; i < 100; i++) {
+    // Di dalam perulangan, periksa setiap angka counter:
+    // Apabila angka counter adalah angka genap, tuliskan GENAP
+    // Apabila angka counter adalah angka ganjil, tuliskan GANJIL
+    if (i % 2 == 0 ) {
+        console.log(`${i} angaka ini genap`)
+    } else {
+        console.log(`${i} angkan ini ganjil`)
+    }
+}
