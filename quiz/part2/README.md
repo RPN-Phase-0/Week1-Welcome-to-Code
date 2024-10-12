@@ -1,5 +1,7 @@
 # Quiz Pemrograman Sebelum Masuk Looping | Part 2
+
 ## Soal 1
+
 ```js
 //1. Let's Form a Sentence
 
@@ -18,8 +20,29 @@ let sixth = 'love';
 let seventh = 'it!';
 
 //code here
+
+// Menampung kalimat ke dalam variable
+const sentence =
+	word +
+	' ' +
+	second +
+	' ' +
+	third +
+	' ' +
+	fourth +
+	' ' +
+	fifth +
+	' ' +
+	sixth +
+	' ' +
+	seventh;
+
+console.log(sentence);
+// Output: JavaScript is awesome and I love it!
 ```
+
 ## Soal 2. Index Accessing - 1 by 1
+
 ```js
 // Problem
 // Pada tugas ini kamu diminta untuk "memecah" sebuah kalimat dan menampilkan setiap kata didalamnya.
@@ -35,7 +58,9 @@ let exampleFirstWord = word[0] + word[1] + word[2];
 
 console.log('First Word: ' + exampleFirstWord);
 ```
+
 ## Soal 3. Breaking Sentence (Again) using Substring
+
 ```js
 // Problem
 // Mirip seperti soal nomor 2, namun kali ini gunakan substring untuk mengambil potongan dari tiap kata!
@@ -47,17 +72,19 @@ console.log('First Word: ' + exampleFirstWord3);
 ```
 
 ## Soal 4. Breaking Sentence (yet Again) and Count Each Length
+
 ```js
 // Problem
 // Mirip seperti soal nomor 3, tapi tampilkan juga panjang kata masing-masingnya!
-
 
 let word4 = 'wow JavaScript is so cool';
 let exampleFirstWord4 = word4.substring(0, 3);
 
 let firstWordLength = exampleFirstWord4.length;
 
-console.log('First Word: ' + exampleFirstWord + ', with length: ' + firstWordLength);
+console.log(
+	'First Word: ' + exampleFirstWord + ', with length: ' + firstWordLength
+);
 ```
 
 tulis code sesuai dengan keterangan soalnya dan pola example yang ada
