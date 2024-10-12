@@ -163,7 +163,8 @@ switch (bulan) {
 // Output
 
 console.log(`${hari} ${bulan} ${tahun}`);
-// Output : 21 Januari 1945
+// Output :
+21 Januari 1945
 ```
 
 ---

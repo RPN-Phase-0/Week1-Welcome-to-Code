@@ -35,6 +35,23 @@ while (j > 0) {
 	console.log(`${j} - Soda < Caffein`);
 	j--;
 }
+
+// Output Looping Pertama :
+LOOPING PERTAMA
+
+1 - Caffein > Soda
+2 - Caffein > Soda
+3 - Caffein > Soda
+
+// Output Looping  Kedua :
+
+LOOPING KEDUA
+
+10 - Soda < Caffein
+9 - Soda < Caffein
+8 - Soda < Caffein
+
+
 ```
 
 ## Soal 2. Melakukan Looping Menggunakan For
@@ -45,6 +62,43 @@ while (j > 0) {
 // Untuk membuat tantangan ini lebih menarik, kamu juga diminta untuk membuat suatu looping yang menghitung maju dan
 // menghitung mundur. Jangan lupa tampilkan di console juga judul 'LOOPING PERTAMA' dan 'LOOPING KEDUA'.
 //tampilkan output yang menunjukan kalau looping itu maju pada looping pertama dan mundur pada looping kedua
+
+// Jawaban :
+
+// Looping Pertama
+
+console.log('LOOPING PERTAMA \n');
+
+for (let i = 0; i < 10; i++) {
+	console.log(`${i} - Caffein > Soda`);
+}
+
+// KASIH SPACE SIRR
+console.log('');
+
+// Looping kedua
+
+console.log('LOOPING KEDUA \n');
+
+for (let j = 10; j > 0; j--) {
+	console.log(`${j} - Soda < Caffein`);
+}
+
+// Output Looping Pertama :
+LOOPING PERTAMA
+
+1 - Caffein > Soda
+2 - Caffein > Soda
+3 - Caffein > Soda
+
+// Output Looping  Kedua :
+
+LOOPING KEDUA
+
+10 - Soda < Caffein
+9 - Soda < Caffein
+8 - Soda < Caffein
+
 ```
 
 ## Soal 3. Angka Ganjil dan Genap
@@ -58,6 +112,29 @@ while (j > 0) {
 
 // Apabila angka counter adalah angka genap, tuliskan GENAP
 // Apabila angka counter adalah angka ganjil, tuliskan GANJIL
+
+// Jawaban :
+
+console.log('Ganjil ge nap \n');
+
+// Looping Angka 1 - 100
+
+for (let i = 1; i <= 100; i++) {
+	// Validasi Angkanya Genap atau Ganjil
+	if (i % 2 === 0) {
+		console.log(`${i} Genap`);
+	} else {
+		console.log(`${i} Ganjil`);
+	}
+}
+
+// Output :
+1 Ganjil
+2 Genap
+3 Ganjil
+4 Genap
+5 Ganjil
+6 Genap
 ```
 
 ## Soal 4. counter kelipatan
