@@ -1,0 +1,11 @@
+let word2 = 'wow JavaScript is so cool';
+let exampleFirstWord = word2[0] + word2[1] + word2[2];
+let exampleSecondWord = word2[4] + word2[5] + word2[6] + word2[7] + word2[8] + word2[9] + word2[10] + word2[11] + word2[12] + word2[13];
+let exampleThirdWord = word2[15] + word2[16];
+let exampleFourthWord = word2[18] + word2[19];
+let exampleFifthWord = word2[21] + word2[22] + word2[23] +  word2[24];
+console.log('First Word: ' + exampleFirstWord);
+console.log('Second Word: ' + exampleSecondWord);
+console.log('Third Word: ' + exampleThirdWord);
+console.log('Fourth Word: ' + exampleFourthWord);
+console.log('Fifth Word: ' + exampleFifthWord);
