@@ -28,10 +28,54 @@ yak Buka aja W3school dan kerjakan soal soal berikut
 // algoritma
 //isi algoritma mu disini (AWAS KALO GA DI ISI!!!!)
 
+1. Buat 2 variabel Terlebih Dahulu, Yang Berisikan Nama Dan Perannya menggunakan let;
+2. Gunakan If Else, Untuk Validasi Jika User Tidak Mengisi Nama maka akan menampilkan "Nama Wajib Diisi"
+3. Gunakan If Else juga, untuk validasi peran jika user tidak mengisi Peran maka akan menampilkan "Pilih Peranmu untuk memulai game"
+4. Gunakan If Else dan Else If, untuk validasi tentang memilih peran berbeda yaitu Ksatria, Tabib dan Penyihir -> Jadi Ketika salah satu peran terpilih maka akan menampilkan sesuai responnya
+    - Ksatria : `halo Ksatria ${nama}, Kamu Dapat Menyerang Dengan Senjatamu dan Menahan Segala Serangan! `
 
-let nama = "", peran = "";
+    - Tabib : `halo Tabib ${nama} , Kamu Dapat Membantu Temanmu Yang Sedang Terluka!`
 
-//code disini gunakan console.log untuk outputnya
+    - Penyihir : `halo Penyihir ${nama} , Kamu Bisa Mengeluarkan Sihir Paling Keren Sedunia dan Mengalahkan Musuh dengan Mudah`
+
+    - Jika Tidak Memilih : tapi kayaknya kamu jadi bot aja ya, peran yang kamu pilih ga ada
+5. Bisa gunakan Switch Case juga pada validasi peran
+
+let nama = "Louis"
+let peran = "Penyihir";
+
+if(!nama || nama.length <= 0) {
+  console.log("Nama Wajib Diisi!");
+}
+
+if (!peran || peran.length <= 0) {
+  console.log("Pilih Peranmu untuk memulai game")
+}
+
+if(peran === "Ksatria") {
+  console.log(`Halo Ksatria ${nama}, Kamu Dapat Menyerang Dengan Senjatamu dan Menahan Segala Serangan`)
+} else if (peran === "Tabib") {
+  console.log(`Halo Tabib ${nama}, Kamu Dapat Membantu Temanmu Yang Sedang Terluka!`)
+} else if(peran === "Penyihir") {
+  console.log(`Halo Penyihir ${nama}, Kamu Bisa Mengeluarkan Sihir Paling Keren Sedunia dan Mengalahkan Musuh dengan Mudah`)
+} else {
+  console.log(`${nama} tapi kayaknya kamu jadi bot aja ya, peran yang kamu pilih ga ada`)
+}
+
+switch(peran) {
+  case "Ksatria":
+    console.log(`Halo Ksatria ${nama}, Kamu Dapat Menyerang Dengan Senjatamu dan Menahan Segala Serangan`);
+    break;
+  case "Tabib":
+    console.log(`Halo Tabib ${nama}, Kamu Dapat Membantu Temanmu Yang Sedang Terluka!`);
+    break;
+  case "Penyihir":
+    console.log(`Halo Penyihir ${nama}, Kamu Bisa Mengeluarkan Sihir Paling Keren Sedunia dan Mengalahkan Musuh dengan Mudah`);
+    break;
+  default:
+    console.log(`${nama} tapi kayaknya kamu jadi bot aja ya, peran yang kamu pilih ga ada`);
+    break;
+}
 
 ```
 
@@ -56,6 +100,54 @@ let tahun = 2001; // assign nilai variabel tahun disini! (dengan angka antara 19
 
 //code switch case kamu disini
 ```
+let tanggal = 21; // assign nilai variabel tanggal disini! (dengan angka antara 1 - 31)
+let bulan = 1; // assign nilai variabel bulan disini! (dengan angka antara 1 - 12)
+let tahun = 1945; // assign nilai variabel tahun disini! (dengan angka antara 1900 - 2200)
+
+//code switch case kamu disini
+
+switch (bulan) {
+    case 1:
+        bulan = "Januari";
+        break;
+    case 2:
+        bulan = "Februari";
+        break;
+    case 3:
+        bulan = "Maret";
+        break;
+    case 4:
+        bulan = "April";
+        break;
+    case 5:
+        bulan = "Mei";
+        break;
+    case 6:
+        bulan = "Juni";
+        break;
+    case 7:
+        bulan = "Juli";
+        break;
+    case 8:
+        bulan = "Agustus";
+        break;
+    case 9:
+        bulan = "September";    
+        break;
+    case 10:
+        bulan = "Oktober";
+        break;
+    case 11:
+        bulan = "November";
+        break;
+    case 12:
+        bulan = "Desember";
+        break;
+    default:
+        break;
+}
+
+console.log(tanggal + " " + bulan + " " + tahun);
 
 ---
 video biar rada paham lah, soalnya ini awal kepahitan ngoding wkwk:
