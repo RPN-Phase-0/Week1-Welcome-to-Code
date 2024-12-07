@@ -3,11 +3,12 @@
 
 Selamat datang di RPN Phase-0 Week 1! Repo ini dibuat khusus untuk pemula yang ingin belajar coding dengan fokus pada JavaScript fundamental. Di sini, Anda akan menemukan materi yang mencakup dasar-dasar pemrograman, seperti variabel, tipe data, conditional statement, looping, fungsi, dan banyak lagi.
 
-## Apa yang akan Anda pelajari?
+## Apa yang akan Kalian pelajari di week1 ?
 
 1. **Dasar-dasar Pemrograman**
-   - Memahami variabel dan tipe data
-   - Operator dasar dan ekspresi
+   - Algorithm & Pseudocode
+   - Variable & Type Data
+   - Logical Operator
 
 2. **Conditional Statements**
    - If...else statements
@@ -18,8 +19,8 @@ Selamat datang di RPN Phase-0 Week 1! Repo ini dibuat khusus untuk pemula yang i
    - While loop
 
 4. **Functions**
-   - Mendefinisikan fungsi
-   - Parameter dan pengembalian nilai
+   - Function Definition
+   - Params and Return
 
 ## Cara Menggunakan Repo Ini
 
