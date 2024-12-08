@@ -6,17 +6,21 @@ code hanyalah tools untuk programmer berbicara dengan komputer, otak sebenarnya 
 
 Programmer akan berfikir keras untuk membuat algoritma agar bisa menyelesaikan masalah yang mereka temukan. Algoritma ada banyak macamnya, setiap masalah" IT bisa disolve dengan berbagai kombinasi algoritma. 
 
-Banyak sekali orang menyepelan materi algoritma ini, terhilat seperti remeh dengan flowchart" ga jelas atau algoritma deskriptif yang menyusahkan kita. Tapi sebenarnya, justru algoritma kunci utama dalam otak programmer.
+Banyak sekali orang menyepelekan materi algoritma ini, terhilat seperti remeh dengan flowchart" ga jelas atau algoritma deskriptif yang menyusahkan kita. Tapi sebenarnya, justru algoritma kunci utama dalam otak programmer.
 
 Kalian bisa saja ngoding tanpa algoritma, dengan menghafal syntax yang ada. Kalian bisa saja membuat website tanpa tahu apa itu algoritma. Dengan html , css , javascript kalian bisa design website semau kalian.
 
-Tapi, ketika kalian menemukan real case problem di dunia nyata dan perlu di solve dengan IT , otak kalian pasti tidak akan bisa mencernanya . kenapa ?
+Tapi, ketika kalian menemukan real case problem di dunia nyata dan perlu di solve dengan IT , otak kalian pasti tidak akan bisa mencernanya. 
 
-coba saja pecahkan masalah shortest path ini , mencari jarak terdekat secara otomatis menggunakan codingan kalian sendiri.
+kenapa ?
+
+coba saja pecahkan masalah shortest path ini , mencari jarak terdekat secara otomatis menggunakan kepala kalian sendiri.
 
 ![image](https://github.com/user-attachments/assets/ac36286f-1df4-4093-9ad4-400a5d3788b1)
 
 YA KALIAN TIDAK AKAN BISA MELAKUKANNYA JIKA TIDAK TAHU ALGORITMA !
+
+bahkan tanpa ngoding pun dan hanya memecahkan masalahnya saja di pikiran kita, manusia akan susah sekali memecahkan masalah ini jika tidak tahu algoritmanya.
 
 RPN ini menjungjung tinggi foundation dan logic. Cara berfikir kalian akan sangat diasah disini dan algoritma adalah segalanya bagi kita.
 
