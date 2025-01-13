@@ -36,6 +36,13 @@ Selamat datang di RPN Phase-0 Week 1! Repo ini dibuat khusus untuk pemula yang i
 - [Belajar Looping](./study-materials/part5.md)
 - [Belajar Function](./study-materials/part6.md)
 
+## Week 1 Logic Nolep (quiz)
+- [Part1](https://github.com/RPN-Phase-0/Week1-Welcome-to-Code/blob/main/quiz/part1/README.md)
+- [Part2](https://github.com/RPN-Phase-0/Week1-Welcome-to-Code/tree/main/quiz/part2)
+- [Part3](https://github.com/RPN-Phase-0/Week1-Welcome-to-Code/tree/main/quiz/part3)
+- [Part4](https://github.com/RPN-Phase-0/Week1-Welcome-to-Code/blob/main/quiz/part4/README.md)
+- [Ujian Week1](https://github.com/RPN-Phase-0/Week1-Welcome-to-Code/tree/main/quiz/ujian)
+
 ## Dukung Kami
 
 Jika Anda menemukan repo ini bermanfaat, jangan lupa untuk memberikan bintang ⭐ di bagian atas halaman. Dukung kami dengan cara sebarkan ke teman-teman kalian, karena materi ini gratis!
