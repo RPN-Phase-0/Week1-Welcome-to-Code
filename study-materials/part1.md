@@ -85,7 +85,7 @@ Jika sudah selesai, kalian akan langsung redirect ke dashboard github akun kalia
 
 ![image](https://github.com/user-attachments/assets/082daac9-9ecf-4ab5-936d-7b3e689bb0ea)
 
-untuk sekarang step github sampai buat akun saja, nanti kita lanjut di part 3 untuk buat repo pertama kalian dan commit pertama di git.
+untuk sekarang step github sampai buat akun saja, nanti kita lanjut di part 4 untuk buat repo pertama kalian dan commit pertama di git.
 
 Next stepnya kita akan set up Programming Editor menggunakan VSCode
 
