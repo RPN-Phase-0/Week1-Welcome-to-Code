@@ -4,7 +4,7 @@ Sebelumnya kalian belajar contoh algoritma pseudocode, dan setelah kalian meliha
 
 pada part kali ini juga kita akan belajar dasar pemrogramannya yang dimana dasar-dasar ini ada hampir sama di semua bahasa pemrograman meskipun menggunakan bahasa pemrograman javascript. nah yang membedakan itu disebut syntax
 
-simplenya syntax itu adalah aturan menulis code, cuma itu yang membedakan antara bahasa pemrograman 1 dengan yang lainnya, tapi tenang aja, mirip-mirip kok sintaksnya.
+simplenya syntax itu adalah aturan menulis code, cuma itu yang membedakan antara bahasa pemrograman 1 dengan yang lainnya, tapi tenang aja, mirip-mirip kok syntaxnya.
 
 ![image](https://github.com/user-attachments/assets/e6a63c0e-4b31-405b-ba36-d6098a068464)
 
