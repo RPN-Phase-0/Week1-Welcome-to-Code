@@ -60,6 +60,6 @@ let tahun = 2001; // assign nilai variabel tahun disini! (dengan angka antara 19
 ---
 video biar rada paham lah, soalnya ini awal kepahitan ngoding wkwk:
 
-[Video tutor](https://youtu.be/-YlMePibR6Y)
+[Video tutor by Harkon](https://youtu.be/-YlMePibR6Y)
 
 *sisanya kalian googling aja ya ges yak*
