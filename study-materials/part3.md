@@ -307,17 +307,15 @@ Poin-poin penting untuk diingat:
 - Selalu perhatikan tipe data saat melakukan operasi untuk menghindari bug
 
 
-
-yak di video nanti ada cheatsheet simple sintaks javascript, mohon maaf kalo kurang lengkap, karena emang sengaja biar kamu explore sendiri.
+Silahkan praktek materi ini menggunakan VScode dan nodejs yang kalian sudah set up di part sebelumnya, cobain semua tipe data javscript dan console.log untuk mengetahui resultnya. Semakin banyak kalian menulis code dan mencoba coba code diatas akan semakin terlatih dengan syntax javascript.
 
 ***DIHARAPKAN KAMU SELALU EXPLORE DAN SEARCHING SENDIRI, KARENA PROGRAMMER SERING DITUNTUT MENYELESAIKAN MASALAHNYA SENDIRIAN***
 
 -------------------------------------------------------------------------------------------
-video pembelajaran part 3 biar mudah dipahami (semoga gampang dipahami dah wkwk):
+video pembelajaran part 3 biar mudah dipahami dari harkon (helper).
 [Part 3](https://youtu.be/BdEUm9huqiM)
 
-jangan lupa diketik itu code di videonya, biasalam sering mengetik kalau ingin jadi programmer 🗿
+jangan lupa diketik itu code di videonya, biasakan sering mengetik kalau ingin jadi programmer 🗿
 
 ## Other Source
 [Javascript Syntax](https://www.w3schools.com/js/js_syntax.asp)
-*other source lebih bagus sih sebenernya 🗿*
