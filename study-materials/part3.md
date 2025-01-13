@@ -1,4 +1,4 @@
-# Javascript Syntax | Part 3
+# Javascript Syntax Basics | Part 3
 
 Sebelumnya kalian belajar contoh algoritma pseudocode, dan setelah kalian melihatnya untuk pertama kali, kalian pasti bingung dengan istilah-istilah yang digunakan pada pseudocode. itu sudah pasti karena kamu belum belajar konsep pemrograman dasarnya.
 
