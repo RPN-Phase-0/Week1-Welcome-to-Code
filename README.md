@@ -41,3 +41,5 @@ Selamat datang di RPN Phase-0 Week 1! Repo ini dibuat khusus untuk pemula yang i
 Jika Anda menemukan repo ini bermanfaat, jangan lupa untuk memberikan bintang ⭐ di bagian atas halaman. Dukung kami dengan cara sebarkan ke teman-teman kalian, karena materi ini gratis!
 
 Selamat belajar dan selamat datang di dunia pemrograman! 🚀
+
+[Discord RPN](https://discord.gg/ufbRBRTKN8)
