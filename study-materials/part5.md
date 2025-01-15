@@ -22,7 +22,7 @@ dan disambung dengan indexing pada tipe data tersebut
 
 kata kunci pada indexing adalah
 > - index selalu berawal dari 0, ga mungkin yang lain
-> - kalau mau menyentuh item/element/huruf paling kanan gunakan `length - 1` pada index
+> - kalau mau menyentuh item/element/huruf paling kanan atau terakhir gunakan `length - 1` pada index
 
 pengalaman menulis tentang memahami looping itu butuh waktu kisaran berminggu minggu, dipadukan dengan challenge/tantangan berupa quiz/soal pemrograman yang mengharuskan pelajar menggunakan looping untuk menjawab quiz/soal pemrograman tersebut
 
