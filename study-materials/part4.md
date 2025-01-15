@@ -9,10 +9,8 @@ command-commandnya bisa diliat atau di copas ya
 `git push origin nama-branch-kamu` setelah commit baru bisa di push dan nama branch harus sesuai
 
 -------------------------------------------------------------------------
-yak lebih lengkapnya ada di video ini sih: [Part 4](https://youtu.be/48D9CRd_A9o)
+lebih lengkapnya ada di video ini dari Harkon: [Part 4](https://youtu.be/48D9CRd_A9o)
 
 ## Other Source
 
 [What is Git?](https://www.youtube.com/watch?v=lZUnMiwEQoc&list=PL8bBYpHH3RI6BlCzFTMQvt7sGSycUj7S-)
-
-*other source lebih bagus sih sebenernya 🗿*
