@@ -4,8 +4,11 @@ Oke disini kalian akan belajar bagaimana caranya menggunakan git dan github, lal
 
 command-commandnya bisa diliat atau di copas ya
 `git clone url-repo-kamu` ini untuk cloning
+
 `git add .` ini untuk add file yang mau di commit
+
 `git commit -m "pesan kamu"` ini untuk commit file yang akan di push
+
 `git push origin nama-branch-kamu` setelah commit baru bisa di push dan nama branch harus sesuai
 
 -------------------------------------------------------------------------
