@@ -14,7 +14,7 @@ point yang harus dipahami adalah:
 - Permainan Kondisi pada looping
 - Memahami Flow Nested Loop (KUNCI UTAMA)
 
-yak, looping biasanya sering bersama dengan tipe data array, angka, dan string.
+looping biasanya sering bersama dengan tipe data array, angka, dan string.
 yang paling populer sudah jelas combo **Looping + Array** 
 
 lalu sering bertemu dengan yang namanya method **length** pada tipe data string dan array di javascript
@@ -24,7 +24,7 @@ kata kunci pada indexing adalah
 > - index selalu berawal dari 0, ga mungkin yang lain
 > - kalau mau menyentuh item/element/huruf paling kanan gunakan `length - 1` pada index
 
-yak pengalaman penulis tentang memahami looping itu butuh waktu kisaran berminggu minggu, dipadukan dengan challenge/tantangan berupa quiz/soal pemrograman yang mengharuskan pelajar menggunakan looping untuk menjawab quiz/soal pemrograman tersebut
+pengalaman menulis tentang memahami looping itu butuh waktu kisaran berminggu minggu, dipadukan dengan challenge/tantangan berupa quiz/soal pemrograman yang mengharuskan pelajar menggunakan looping untuk menjawab quiz/soal pemrograman tersebut
 
 Sekian terima kasih
 
