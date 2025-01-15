@@ -29,6 +29,5 @@ yak pengalaman penulis tentang memahami looping itu butuh waktu kisaran bermingg
 Sekian terima kasih
 
 ---
-berikut video tentang looping, namun jangan harap langsung paham, gua sendiri aja nonton banyak video soal looping ga hafal hafal
-
+video tentang looping by harkon
 [Looping](https://youtu.be/6zB1lF3vkFE)
