@@ -10,7 +10,7 @@ function konversiMenit(menit) {
   return jam + ':' + menitSisaStr;
 }
 
-// TEST CASES
-console.log(konversiMenit(63)); // 1:03
-console.log(konversiMenit(124)); // 2:04
-console.log(konversiMenit(53)); // 0:531
+
+console.log(konversiMenit(63)); 
+console.log(konversiMenit(124)); 
+console.log(konversiMenit(53)); 

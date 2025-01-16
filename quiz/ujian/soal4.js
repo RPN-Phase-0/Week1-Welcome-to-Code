@@ -15,6 +15,6 @@ function xo(str) {
   }
 }
 
-// TEST CASES
-xo('xoxoxo'); // true
-xo('oxooxo'); // false
+
+xo('xoxoxo'); 
+xo('oxooxo'); 
