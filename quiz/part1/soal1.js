@@ -1,5 +1,5 @@
 let nama = "Reza",
-  peran = "Penipu";
+  peran = "Ksatria";
 if (nama === "") {
   console.warn("Nama Wajib Diisi");
 }
