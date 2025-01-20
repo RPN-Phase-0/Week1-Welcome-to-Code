@@ -1,7 +1,7 @@
 let star= "";
 
 for(let i=0; i<=5; i++){
-    for(let j=i; j<=i; j++){
+    for(let j=0; j<=i; j++){
         star +="*";
     }
     star +="\n";
