@@ -109,7 +109,7 @@ Sekarang kita terapkan dalam bentuk flowchart agar terlihat lebih jelas visualis
 
 Nah flowchart itu apa sih ? 
 
-Flowchart atau diagram alir adalah representasi visual dari sebuah proses atau algoritma yang menggunakan simbol-simbol yang saling terhubung dengan panah untuk menunjukkan langkah-langkah dan alur prosesnya.
+Flowchart atau diagram alur adalah representasi visual dari sebuah proses atau algoritma yang menggunakan simbol-simbol yang saling terhubung dengan panah untuk menunjukkan langkah-langkah dan alur prosesnya.
 
 Komponen utama dalam flowchart:
 
