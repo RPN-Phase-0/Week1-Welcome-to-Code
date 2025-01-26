@@ -16,7 +16,8 @@ kenapa ?
 
 coba saja pecahkan masalah shortest path ini , mencari jarak terdekat secara otomatis menggunakan kepala kalian sendiri.
 
-![image](https://github.com/user-attachments/assets/ac36286f-1df4-4093-9ad4-400a5d3788b1)
+<img src="https://github.com/user-attachments/assets/ac36286f-1df4-4093-9ad4-400a5d3788b1" width="500">
+
 
 YA KALIAN TIDAK AKAN BISA MELAKUKANNYA JIKA TIDAK TAHU ALGORITMA !
 
