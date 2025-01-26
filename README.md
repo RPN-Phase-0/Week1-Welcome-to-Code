@@ -1,7 +1,7 @@
 # Week 1 - Welcome to Code!
 ![HD-wallpaper-welcome-beach-funny-ocean](https://github.com/user-attachments/assets/d76c18fb-6f11-4671-8277-11454fa7b48e)
 
-Selamat datang di RPN Phase-0 Week 1! Repo ini dibuat khusus untuk pemula yang ingin belajar coding dengan fokus pada JavaScript fundamental. Di sini, Anda akan menemukan materi yang mencakup dasar-dasar pemrograman, seperti variabel, tipe data, conditional statement, looping, fungsi, dan banyak lagi.
+Selamat datang di RPN Phase-0 Week 1! Repo ini dibuat khusus untuk pemula yang ingin belajar coding dengan fokus pada JavaScript fundamental. Di sini, kalian akan menemukan materi yang mencakup dasar-dasar pemrograman, seperti variabel, tipe data, conditional statement, looping, fungsi, dan banyak lagi.
 
 ## Apa yang akan Kalian pelajari di week1 ?
 
@@ -24,8 +24,8 @@ Selamat datang di RPN Phase-0 Week 1! Repo ini dibuat khusus untuk pemula yang i
 
 ## Cara Menggunakan Repo Ini
 
-1. **Mulailah dengan membaca materi yang tersedia di setiap folder.** Setiap topik memiliki penjelasan lengkap dan contoh kode yang bisa Anda pelajari.
-2. **Coba tulis kode Anda sendiri!** Setiap bagian menyertakan latihan yang bisa Anda coba untuk menguji pemahaman Anda.
+1. **Mulailah dengan membaca materi yang tersedia di setiap folder.** Setiap topik memiliki penjelasan lengkap dan contoh kode yang bisa kalian pelajari.
+2. **Coba tulis kode kalian sendiri!** Setiap bagian menyertakan latihan yang bisa kalian coba untuk menguji pemahaman kalian.
 3. **Bergabunglah dengan komunitas.** Jangan ragu untuk bertanya atau berdiskusi dengan sesama pemula di bagian issues atau melalui pull requests.
 
 ## Week 1 Study Materials
