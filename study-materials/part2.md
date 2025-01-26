@@ -86,6 +86,7 @@ algoritma daily activity
 - jam 8am - 9am gym
 
 Jika gym terlalu kecapean -> break
+
 Jika gym tidak terlalu cape -> jam 10am baca buku
 
 - jam 11am - 5pm working hour
