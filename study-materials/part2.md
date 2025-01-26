@@ -12,7 +12,7 @@ Kalian bisa saja ngoding tanpa algoritma, dengan menghafal syntax yang ada. Kali
 
 Tapi, ketika kalian menemukan real case problem di dunia nyata dan perlu di solve dengan IT , otak kalian pasti tidak akan bisa mencernanya. 
 
-**KENAPA ?**
+### **KENAPA ?**
 
 coba saja pecahkan masalah shortest path ini , mencari jarak terdekat secara otomatis menggunakan kepala kalian sendiri.
 
