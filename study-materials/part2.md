@@ -59,7 +59,7 @@ lalu lakukan hal tersebut sampai baju kotornya habis
 
 contoh visual algoritma diatas :
 
-![image](https://github.com/user-attachments/assets/ceffb79a-7763-4353-8a18-a2cdb35c0a12)
+<img src="https://github.com/user-attachments/assets/ceffb79a-7763-4353-8a18-a2cdb35c0a12" width="900">
 
 
 Ya seperti halnya kalian melakukan pencucian baju setiap hari, sebenarnya algoritma banyak terjadi dibagian" hidup kita. Dan secara ga sadar kalian selalu membuat algoritma dalam pemakaian waktu sehari hari. Misal,
@@ -133,8 +133,8 @@ Kegunaan Flowchart:
 - Alat komunikasi antara programmer dan user
 
 ini adalah contoh visual flowchart dari algoritma pengecekan angka ganjil dan genap
-![image](https://github.com/user-attachments/assets/8b53bf7e-b06f-4119-be5c-fac6935ad8e5)
 
+<img src="https://github.com/user-attachments/assets/8b53bf7e-b06f-4119-be5c-fac6935ad8e5" width="800">
 
 ## Implementasi code
 
