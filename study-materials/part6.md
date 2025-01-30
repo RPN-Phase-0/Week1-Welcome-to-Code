@@ -2,128 +2,140 @@
 
 pada part kali ini kita akan belajar apa itu function pada javascript ya
 
-fungsi itu semacam block of code yang isinya proses tertentu, misal ada fungsi balikKata ya fungsi tersebut memproses untuk membalikan suatu kata
+Fungsi di JavaScript itu seperti **kotak ajaib** yang bisa menerima input (*parameters*), mengolahnya, lalu *melemparkan* output (*return*)—atau enggak!
+
+Fungsi bisa dibilang semacam block of code yang isinya proses tertentu, misal ada fungsi balikKata ya fungsi tersebut memproses untuk membalikan suatu kata
 
 perlu di ingat, bahwa fungsi itu bisa mengembalikan nilai dan bisa tidak mengembalikan nilai (kalo kata penulis itu mengembalikan nilai = punya nilai)
 
-```js
-function test1() {
-  return "woi"; // ini fungsi yang punya nilai
-}
 
-function test2() {
-  console.log("woi"); //ini ga punya nilai tapi dia bisa ngasih output
-  //karena ada perintah console.log()
-}
-```
+## Function Deep-Dive: Parameters, Return, & Secret Superpowers! 
 
-lalu cara menjalankan fungsi seperti berikut
+Disini gua akan menjelaskan sifat sifat fungsi dan super power nya.
+
+### **1. Parameters: Bahan Mentah untuk Fungsi**  
+Parameters adalah *variabel lokal* yang kita definisikan di dalam tanda kurung `()`. Mereka ibarat **bahan-bahan** untuk membuat jus apel 🍹:  
 
 ```js
-test1(); //ini menjalankan karena ada ()
-test1 //ini ngapain njir????
-
-```
-
-kalian bebas nentuin mau berapa parameter untuk fungsi yang kalian buat
-```js
-function ntahApaIni(a,b,c,d) {
-  //suka suka kalian lah disini mau apa
+function buatJus(apel, gula) {
+    return `Jus ${apel} apel + ${gula} sendok gula 🍎!`;
 }
 
-ntahApaIni(1,2,3,4,5)
-//kok ada 5, kan d itu sampe 4, sedangkan 5 itu ga ada di parameter?
-//tenang saja angka 5 ga akan dianggap
+console.log(buatJus(5, 2)); // Output: "Jus 5 apel + 2 sendok gula 🍎!"
 ```
-point penting dalam belajar function
-> - teliti dalam penentuan parameter mau tipe data apa aja
-> - jangan lupa kasih () buat jalanin fungsinya
-> - penamaan fungsi harus jelas
-> - penamaan parameter juga harus jelas
+
+**Catatan:**  
+- Parameter bisa **berbagai tipe data** (number, string, array, bahkan fungsi lain!).  
+- Jika argumen *kurang* atau *lebih*, JavaScript tidak error. Contoh:  
+  ```js
+  buatJus(3); // Parameter 'gula' jadi `undefined` → "Jus 3 apel + undefined sendok gula 🍎!"
+  ```
 
 ---
 
-vid untuk pemahaman fungsi, yang mungkin kalian butuh, apalagi di menit menit akhir itu ada contoh kompleksnya:
-
-[Belajar Function by RPN](https://youtu.be/qaHT0psosU0)
-
-## Ada yang harus kalian pahami lagi selain Function kali ini
-oh iya pada materi function, coba kalian pahami apa itu scope pada pemrograman ya
-soalnya scope penting juga untuk dipahami
-
-## Scope
+### **2. Return: Fungsi yang "Menghasilkan" Nilai**  
+Keyword `return` berfungsi untuk **mengembalikan nilai** dan *menghentikan eksekusi fungsi*. Kalau tidak ada `return`, fungsi akan mengembalikan `undefined`:  
 
 ```js
-let nama = "andi"; //variabel ini ada pada global scope
-//yang mana bisa diakses pada fungsi fungsi yang sejajar
-
-function hello() {
-  let hello = "hello "; //variabel ini ada di local scope
-//local scope fungsi hello, yang mana akan error kalau variabel hello kita panggil keluar
-//dari fungsinya
-
-  console.log(hello + nama1);
+function cekApelSegar(jumlah) {
+    if (jumlah > 0) {
+        return true; // 🍎 Segar!
+    }
+    return false; // 🍏 Busuk...
 }
 
-console.log(helo) //ini akan error wkwk
-
-//simplenya penulis menyebutkan adanya hirarki pada pemrograman
-//misal
-
-let nilai = 50
-
-if (nilai >= 50) {
-  let hasil = "lulus" //disini bisa deklarasi variabel hasil
-} else {
-  let hasil = "Tidak lulus" ////disini juga bisa deklarasi variabel hasil
-}
-
-console.log(hasil) //namun bila dijalankan ya akan error, karena variabel hasil hanya bisa
-//diakses pada local scope if dan else
-
+console.log(cekApelSegar(5)); // true
 ```
 
-`{` dan `}` pada if else, dan looping,itu akan menghasilkan block scope
+**Contoh fungsi tanpa return (tapi tetap berguna):**  
+```js
+function logApel() {
+    console.log("Apel sedang diproses... 🍎");
+}
+
+logApel(); // Output: "Apel sedang diproses... 🍎"
+// Tapi nilai baliknya `undefined`!
+```
+
+---
+
+### **3. Sifat Unik Fungsi Lainnya 🦄**  
+
+#### **a. First-Class Citizens**  
+Fungsi bisa diperlakukan seperti **variabel biasa**: disimpan di variabel, jadi parameter, atau bahkan jadi nilai return!  
 
 ```js
-//global scope
-if (kondisi) {
-  //block scope nya si if
-} else {
-  //block scopenya si else
-}
-//ini masih global scope
-function ntahApa() {
-  //local scopenya si fungsi ntahApa
-  if (kondisi) {
-    //ini makin dalam, yg dinamakan block scope
-    //let hello = "woi wkwkw"
-  }
+// Fungsi sebagai variabel
+const potongApel = function(jumlah) {
+    return jumlah * 4; // 1 apel dipotong jadi 4 🍴
+};
 
-  console.log(hello) //error nanti soalnya ga se scope
+// Fungsi sebagai parameter (higher-order function)
+function prosesApel(apel, action) {
+    return action(apel);
 }
+
+console.log(prosesApel(3, potongApel)); // 12
 ```
 
-solusinya gimana tuh kalo emang pengen manipulasi variabel dalam conditional statement???
+#### **b. Default Parameters**  
+Kasih nilai default jika argumen tidak diberikan:  
+```js
+function buatPieApel(apel = 5) {
+    return `Pie dengan ${apel} apel 🥧`;
+}
 
-berikut solusinya:
+console.log(buatPieApel()); // "Pie dengan 5 apel 🥧"
+```
+
+#### **c. Arrow Function (ES6)**  
+Syntax lebih singkat untuk fungsi sederhana:  
+```js
+// Bentuk biasa
+const hitungApel = function(n) { return n + 1; };
+
+// Arrow function
+const hitungApel = n => n + 1; 
+
+console.log(hitungApel(2)); // 3
+```
+
+---
+
+### **4. Scope: Aturan "Zona" Variabel**  
+Variabel di dalam fungsi (*local scope*) tidak bisa diakses dari luar. Tapi variabel di *global scope* bisa diakses dari dalam fungsi:  
 
 ```js
-let woi = "woi";
-function ntahApa() {
-  //local scopenya si fungsi ntahApa
-  let hello = "";
-  if (kondisi) {
-    //ini block scope
-    hello = "woi wkwkw"
-    console.log(hello) //ini ga akan error, ya karena var hello ada di luar scopenya
-    let akanError = "hehehe";
-  }
-  // console.log(akanError) //ini akan error, kenapa? pahami sendiri dah wkwk
+let totalApel = 10; // Global scope
 
-  console.log(hello) //ini ga error, soalnya log ini dan var hello berada dalam scope yang sama
-  console.log(woi) //ini juga ga error, karena memanggil var woi yang berada di luar/atas/global scope
+function kurangiApel() {
+    let apelDikurangi = 2; // Local scope
+    totalApel -= apelDikurangi;
+    console.log(totalApel); // 8
 }
+
+console.log(apelDikurangi); // Error! Variabelnya cuma ada di dalam fungsi
 ```
+
+---
+
+### **🚀 Tips Penting!**  
+- **Nama Fungsi & Parameter Harus Jelas!**  
+  ```js
+  // ❌ Buruk
+  function x(a, b) { ... }
+  
+  // ✅ Baik
+  function hitungTotalApel(jumlahAwal, tambahan) { ... }
+  ```  
+- **Gunakan `return` untuk fungsi yang perlu menghasilkan nilai** (e.g., perhitungan, validasi).  
+- **Hindari *side effects*** (ubah data global) di fungsi sebisa mungkin, kecuali memang diperlukan.
+- teliti dalam penentuan parameter mau tipe data apa aja
+- jangan lupa kasih () buat jalanin fungsinya
+
+Dengan memahami fungsi, kamu bisa menulis kode yang **modular**, **reusable**, dan **mudah di-debug**! 🎉
+
+video untuk pemahaman fungsi, yang mungkin kalian butuh, apalagi di menit menit akhir itu ada contoh kompleksnya:
+[Belajar Function by Harkon RPN](https://youtu.be/qaHT0psosU0)
 
 Referensi: [Link](https://medium.com/@adhywiranata/bermain-scope-di-javascript-d954e07d05ae)
