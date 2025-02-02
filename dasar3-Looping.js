@@ -16,4 +16,29 @@
 
 //INTRODUCTION LOOPING
 // 1. Basic concept of Looping
-// looping is 
+// looping is process iteration of execution block code along certain condition granted.
+// imagine a robot which lift box from a truck until nothing left. every iteration is
+// once lift a box, and stop condition is "empty truck"
+// [Start]  
+//   ↓  
+// [Kondisi?] → True → [Eksekusi Blok Kode] → [Update Variabel]  
+//   ↓ False  
+// [End]
+
+// 2. For Loop
+// used when how many times iteration has been known. the process is structural :
+// 1) initiation : prepared count variable.
+// 2) condition : check if iteration may continue.
+// 3) update : add/minus value counter.
+// for instance :
+for (let i = 0; i < 3; i++) {
+    console.log(i); // Output: 0, 1, 2
+  }
+// execution path :
+// i=0 → 0 < 3? ✅ → Log 0 → i++ (i=1)  
+// i=1 → 1 < 3? ✅ → Log 1 → i++ (i=2)  
+// i=2 → 2 < 3? ✅ → Log 2 → i++ (i=3)  
+// i=3 → 3 < 3? ❌ → STOP
+
+
+// 3. While Loop
