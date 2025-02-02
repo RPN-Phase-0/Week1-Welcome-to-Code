@@ -42,3 +42,33 @@ for (let i = 0; i < 3; i++) {
 
 
 // 3. While Loop
+// Loop working along condition true, without guarantee minimal iteration.
+// match for cases where dinamyc condition (ex: read data until "finish"). Visualization:
+// [Start]  
+//   ↓  
+// [Kondisi?] → True → [Eksekusi Kode]  
+//   ↓ False        ↖       |  
+// [End]               [Update Variabel]
+//for instance :
+let sandi = "";
+while (sandi !== "1234") {
+  sandi = prompt("Masukkan sandi:"); // Ulangi sampai sandi benar
+}
+
+// 4. Do...While Loop
+// Code block is running at least once before condition is checked.
+// ensure prompt appear minimal 1x. visual :
+// [Start]  
+//   ↓  
+// [Eksekusi Kode] → [Update Variabel]  
+//   ↓  
+// [Kondisi?] → True → Ulangi  
+//   ↓ False  
+// [End]
+// for instance :
+let angka;
+do {
+  angka = prompt("Masukkan angka > 10:"); 
+} while (angka <= 10);
+
+// 5. For... Of Loop (iteration value)
