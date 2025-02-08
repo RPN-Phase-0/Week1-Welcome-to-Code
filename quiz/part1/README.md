@@ -33,6 +33,9 @@ let nama = "", peran = "";
 
 //code disini gunakan console.log untuk outputnya
 
+nama = 'rizky rasya';
+peran = 'web dev'
+
 ```
 
 ## Soal 2
