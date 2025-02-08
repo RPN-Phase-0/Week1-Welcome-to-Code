@@ -29,8 +29,8 @@ yak Buka aja W3school dan kerjakan soal soal berikut
 // algoritma
 //isi algoritma mu disini (AWAS KALO GA DI ISI!!!!)
 
-let nama = "joko",
-  peran = "kiper";
+let nama = "",
+  peran = "";
 
 //code disini gunakan console.log untuk outputnya
 ```
