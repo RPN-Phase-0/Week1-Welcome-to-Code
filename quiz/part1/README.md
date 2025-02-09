@@ -28,10 +28,22 @@ yak Buka aja W3school dan kerjakan soal soal berikut
 
 // algoritma
 //isi algoritma mu disini (AWAS KALO GA DI ISI!!!!)
+let nama = "ravnov";
+let peran = "Ksatria";
 
-let nama = "",
-  peran = "";
-
+if (nama === "") {
+  console.log("Nama wajib  diisi");
+} else if (peran === "") {
+  console.log("Pilih peranmu untuk memulai game");
+} else if (peran === "Ksatria") {
+  console.log(`halo Ksatria ${nama} , kamu dapat menyerag denagn senjatamu!`);
+} else if (peran === "Tabib") {
+  console.log(`halo Tabib ${nama} , kamu akan membantu temanmu yang terluka`);
+} else if (peran === "Penyihir") {
+  console.log(`halo Penyihir ${nama} , ciptakan keajaiban yang membantu kemenanganmu!`);
+} else {
+  console.log("tapi kayaknya kamu jadi bot aja ya, peran yang kamu pilih ga ada ");
+}
 //code disini gunakan console.log untuk outputnya
 ```
 
