@@ -19,15 +19,15 @@
 //isi algoritma mu disini (AWAS KALO GA DI ISI!!!!)
 
 
-let nama = "scorlines", peran = "Tabib";
+let nama = "scorlines", peran = "Penyihir";
 
 //code disini gunakan console.log untuk outputnya
 if (peran === "Ksatria"){
     console.log(`Halo Ksatria ${nama}, kamu dapat menyerang dengan senjatamu!`);
 } else if (peran === 'Tabib') {
-    console.log('halo Tabib ${nama} , kamu akan membantu temanmu yang terluka');
+    console.log(`halo Tabib ${nama} , kamu akan membantu temanmu yang terluka`);
 } else if (peran === 'Penyihir') {
-    console.log ('halo Penyihir ${nama} , ciptakan keajaiban yang membantu kemenanganmu!');
+    console.log (`halo Penyihir ${nama} , ciptakan keajaiban yang membantu kemenanganmu!`);
 } else {
     console.log ('tapi kayaknya kamu jadi bot aja ya, peran yang kamu pilih ga ada');
 }
