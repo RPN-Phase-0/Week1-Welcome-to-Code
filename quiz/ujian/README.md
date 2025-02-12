@@ -62,6 +62,10 @@ console.log(balikKata("Super")); // repuS
 
 function konversiMenit(menit) {
   // you can only write your code here!
+  let jam = Math.floor(menit / 60);
+  let sisaMenit = menit % 60;
+  sisaMenit = sisaMenit < 10 ? "0" + sisaMenit : sisaMenit;
+  return jam + ":" + sisaMenit;
 }
 
 // TEST CASES
@@ -81,6 +85,16 @@ console.log(konversiMenit(120)); // 2:00
 
 function xo(str) {
   // you can only write your code here!
+  let x = 0;
+  let o = 0;
+  for (let i = 0; i < str.length; i++) {
+    if (str[i] === "x") {
+      x++;
+    } else if (str[i] === "o") {
+      o++;
+    }
+  }
+  return x === o;
 }
 
 // TEST CASES
