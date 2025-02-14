@@ -16,4 +16,3 @@ let seventh = 'it!';
 
 //code here
 console.log(word + ' ' + second + ' ' + third + ' ' + fourth + ' ' + fifth + ' ' + sixth + ' ' + seventh);
-
