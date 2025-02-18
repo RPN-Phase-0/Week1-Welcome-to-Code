@@ -642,7 +642,7 @@ Memahami operator logika dengan baik sangat penting karena mereka adalah fondasi
 
 Silahkan praktek materi ini menggunakan VScode dan nodejs yang kalian sudah set up di part sebelumnya, cobain semua tipe data javscript dan console.log untuk mengetahui resultnya. Semakin banyak kalian menulis code dan mencoba coba code diatas akan semakin terlatih dengan syntax javascript.
 
-***DIHARAPKAN KAMU SELALU EXPLORE DAN SEARCHING SENDIRI, KARENA PROGRAMMER SERING DITUNTUT MENYELESAIKAN MASALAHNYA SENDIRIAN***
+***DIHARAPKAN KALIAN SELALU EXPLORE DAN SEARCHING SENDIRI, KARENA PROGRAMMER SERING DITUNTUT MENYELESAIKAN MASALAHNYA SENDIRIAN***
 
 -------------------------------------------------------------------------------------------
 video pembelajaran part 3 biar mudah dipahami dari harkon (helper).

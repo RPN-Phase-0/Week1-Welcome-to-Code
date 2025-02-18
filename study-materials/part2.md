@@ -12,11 +12,12 @@ Kalian bisa saja ngoding tanpa algoritma, dengan menghafal syntax yang ada. Kali
 
 Tapi, ketika kalian menemukan real case problem di dunia nyata dan perlu di solve dengan IT , otak kalian pasti tidak akan bisa mencernanya. 
 
-kenapa ?
+### **KENAPA ?**
 
 coba saja pecahkan masalah shortest path ini , mencari jarak terdekat secara otomatis menggunakan kepala kalian sendiri.
 
-![image](https://github.com/user-attachments/assets/ac36286f-1df4-4093-9ad4-400a5d3788b1)
+<img src="https://github.com/user-attachments/assets/ac36286f-1df4-4093-9ad4-400a5d3788b1" width="650">
+
 
 YA KALIAN TIDAK AKAN BISA MELAKUKANNYA JIKA TIDAK TAHU ALGORITMA !
 
@@ -58,7 +59,7 @@ lalu lakukan hal tersebut sampai baju kotornya habis
 
 contoh visual algoritma diatas :
 
-![image](https://github.com/user-attachments/assets/ceffb79a-7763-4353-8a18-a2cdb35c0a12)
+<img src="https://github.com/user-attachments/assets/ceffb79a-7763-4353-8a18-a2cdb35c0a12" width="900">
 
 
 Ya seperti halnya kalian melakukan pencucian baju setiap hari, sebenarnya algoritma banyak terjadi dibagian" hidup kita. Dan secara ga sadar kalian selalu membuat algoritma dalam pemakaian waktu sehari hari. Misal,
@@ -86,6 +87,7 @@ algoritma daily activity
 - jam 8am - 9am gym
 
 Jika gym terlalu kecapean -> break
+
 Jika gym tidak terlalu cape -> jam 10am baca buku
 
 - jam 11am - 5pm working hour
@@ -131,8 +133,8 @@ Kegunaan Flowchart:
 - Alat komunikasi antara programmer dan user
 
 ini adalah contoh visual flowchart dari algoritma pengecekan angka ganjil dan genap
-![image](https://github.com/user-attachments/assets/8b53bf7e-b06f-4119-be5c-fac6935ad8e5)
 
+<img src="https://github.com/user-attachments/assets/8b53bf7e-b06f-4119-be5c-fac6935ad8e5" width="800">
 
 ## Implementasi code
 
