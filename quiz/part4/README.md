@@ -7,7 +7,9 @@
 // yang kemudian akan ditampilkan di console.
 
 //bikin fungsinya disini
-
+function shoutOut(){
+    return "Halo Function!"
+}
 console.log(shoutOut());
 
 
@@ -40,6 +42,9 @@ console.log('')
 // "Nama saya [Name], umur saya [Age] tahun, alamat saya di [Address], dan saya punya hobby yaitu [hobby]!"
 
 //bikin fungsinya disini
+function processSentence(name,age,addres,hobby){
+    return `Nama saya ${name}, umur saya ${age}, alamat saya di ${addres}, dan saya punya hobby yaitu ${hobby}!`
+}
 
 let name = "Agus";
 let age = 30;
