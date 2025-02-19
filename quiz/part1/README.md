@@ -28,10 +28,59 @@ yak Buka aja W3school dan kerjakan soal soal berikut
 // algoritma
 //isi algoritma mu disini (AWAS KALO GA DI ISI!!!!)
 
-
+soal-1
 let nama = "", peran = "";
 
 //code disini gunakan console.log untuk outputnya
+let nama = "jk", peran = "Ksatria", nama1 = "haha", peran1 = "Tabib", nama2 = "hihi", peran2 = "Penyihir";
+
+if (!nama) {
+    console.log("Nama wajib diisi");
+} else if (!peran) {
+    console.log("Pilih Peranmu untuk memulai game");
+} else {
+    if (peran === "Ksatria") {
+        console.log("Halo Ksatria " + nama + ", kamu dapat menyerang dengan senjatamu!");
+    } else if (peran === "Tabib") {
+        console.log("Halo Tabib " + nama + ", kamu akan membantu temanmu yang terluka");
+    } else if (peran === "Penyihir") {
+        console.log("Halo Penyihir " + nama + ", ciptakan keajaiban yang membantu kemenanganmu!");
+    } else {
+        console.log("Tapi kayaknya kamu jadi bot aja ya, peran yang kamu pilih ga ada");
+    }
+}
+
+if (!nama1) {
+    console.log("Nama wajib diisi");
+} else if (!peran1) {
+    console.log("Pilih Peranmu untuk memulai game");
+} else {
+    if (peran1 === "Ksatria") {
+        console.log("Halo Ksatria " + nama1 + ", kamu dapat menyerang dengan senjatamu!");
+    } else if (peran1 === "Tabib") {
+        console.log("Halo Tabib " + nama1 + ", kamu akan membantu temanmu yang terluka");
+    } else if (peran1 === "Penyihir") {
+        console.log("Halo Penyihir " + nama1 + ", ciptakan keajaiban yang membantu kemenanganmu!");
+    } else {
+        console.log("Tapi kayaknya kamu jadi bot aja ya, peran yang kamu pilih ga ada");
+    }
+}
+
+if (!nama2) {
+    console.log("Nama wajib diisi");
+} else if (!peran2) {
+    console.log("Pilih Peranmu untuk memulai game");
+} else {
+    if (peran2 === "Ksatria") {
+        console.log("Halo Ksatria " + nama2 + ", kamu dapat menyerang dengan senjatamu!");
+    } else if (peran2 === "Tabib") {
+        console.log("Halo Tabib " + nama2 + ", kamu akan membantu temanmu yang terluka");
+    } else if (peran2 === "Penyihir") {
+        console.log("Halo Penyihir " + nama2 + ", ciptakan keajaiban yang membantu kemenanganmu!");
+    } else {
+        console.log("Tapi kayaknya kamu jadi bot aja ya, peran yang kamu pilih ga ada");
+    }
+}
 
 ```
 
@@ -55,11 +104,53 @@ let bulan = "februari"; // assign nilai variabel bulan disini! (dengan angka ant
 let tahun = 2001; // assign nilai variabel tahun disini! (dengan angka antara 1900 - 2200)
 
 //code switch case kamu disini
-```
 
----
-video biar rada paham lah, soalnya ini awal kepahitan ngoding wkwk:
+soal-2
+let tanggal = 12;
+let bulan = 11;
+let tahun = 2025;
 
-[Video tutor by Harkon](https://youtu.be/-YlMePibR6Y)
 
-*sisanya kalian googling aja ya ges yak*
+let namaBulan;
+
+switch (bulan) {
+    case 1:
+        namaBulan = "Januari";
+        break;
+    case 2:
+        namaBulan = "Februari";
+        break;
+    case 3:
+        namaBulan = "Maret";
+        break;
+    case 4:
+        namaBulan = "April";
+        break;
+    case 5:
+        namaBulan = "Mei";
+        break;
+    case 6:
+        namaBulan = "Juni";
+        break;
+    case 7:
+        namaBulan = "Juli";
+        break;
+    case 8:
+        namaBulan = "Agustus";
+        break;
+    case 9:
+        namaBulan = "September";
+        break;
+    case 10:
+        namaBulan = "Oktober";
+        break;
+    case 11:
+        namaBulan = "November";
+        break;
+    case 12:
+        namaBulan = "Desember";
+        break;
+    default:
+        namaBulan = "Bulan tidak valid";
+}
+
