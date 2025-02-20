@@ -28,6 +28,11 @@ Selamat datang di RPN Phase-0 Week 1! Repo ini dibuat khusus untuk pemula yang i
 2. **Coba tulis kode kalian sendiri!** Setiap bagian menyertakan latihan yang bisa kalian coba untuk menguji pemahaman kalian.
 3. **Bergabunglah dengan komunitas.** Jangan ragu untuk bertanya atau berdiskusi dengan sesama pemula di bagian issues atau melalui pull requests.
 
+## DAFTAR RPN
+
+Bagi yang belum daftar rpn kalian wajib melakukan fork dan pr pertama pada week1
+- - [Apa saja yang harus disiapkan](./study-materials/daftarRpn.md)
+
 ## Week 1 Study Materials
 - [Apa saja yang harus disiapkan](./study-materials/part1.md)
 - [Belajar Algoritma](./study-materials/part2.md)
