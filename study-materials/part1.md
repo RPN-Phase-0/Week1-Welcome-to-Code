@@ -87,8 +87,58 @@ Jika sudah selesai, kalian akan langsung redirect ke dashboard github akun kalia
 
 untuk sekarang step github sampai buat akun saja, nanti kita lanjut di part 4 untuk buat repo pertama kalian dan commit pertama di git.
 
-Next stepnya kita akan set up Programming Editor menggunakan VSCode
+# Daftar RPN (Fork Repo Pertama)
 
+Sekarang kalian perlu melakukan Fork pada repo week1 phase 0 dan melakukan pull request untuk monitoring progress tugas kalian di komunitas RPN.
+
+Fork repository di GitHub adalah proses membuat salinan independen dari repository milik orang lain ke akun GitHub kita sendiri. Ini merupakan fitur penting dalam pengembangan software kolaboratif. Mari saya jelaskan lebih detail:
+
+Konsep Dasar Fork:
+1. Fork menciptakan salinan lengkap repository asli, termasuk semua file, commit history, dan branches
+2. Repository hasil fork akan muncul di akun GitHub Kalian dengan referensi ke repository asli
+3. Kalian memiliki kontrol penuh atas repository hasil fork dan dapat melakukan perubahan tanpa mempengaruhi repository asli
+
+Kegunaan Fork:
+1. Berkontribusi ke proyek open source - Fork memungkinkan Kalian mengusulkan perubahan melalui Pull Request
+2. Menggunakan proyek yang ada sebagai starting point untuk proyek baru Kalian
+3. Bereksperimen dengan kode tanpa mempengaruhi proyek asli
+4. Menyimpan snapshot dari proyek yang mungkin berubah di masa depan
+
+## Step by step Fork Repository Phase0 week1 
+
+Pertama kalian pergi ke repo : https://github.com/RPN-Phase-0/Week1-Welcome-to-Code
+
+dan dipojok kanan atas ada button "fork", klik button forknya
+
+<img width="1728" alt="Screenshot 2025-02-20 at 21 11 07" src="https://github.com/user-attachments/assets/99d14b8b-48f3-47fc-a59b-c9b245c18ed4" />
+
+setelah itu kalian akan masuk kedalam section pembuatan fork untuk repo week1 welcome to code.
+
+langsung saja kalian bisa klik button hijau dibawah "Create Fork".
+
+![image](https://github.com/user-attachments/assets/085aa132-49c5-4812-b9bc-f1dcd1d42984)
+
+Setelah kalian klik create fork, github akan melakukan progress fork repository rpn ke akun github kalian.
+
+Hasilnya, kalian akan punya bentuk repo Week1-Welcome-to-Code didalam akun kalian sendiri
+
+![image](https://github.com/user-attachments/assets/d9a9bc58-84cb-42dd-8f46-869c48150bcc)
+
+Setelah melakukan fork, Kalian bisa:
+1. Clone repository hasil fork ke komputer lokal
+2. Membuat perubahan dan melakukan commit
+3. Push perubahan ke repository fork Kalian
+4. Membuat Pull Request ke repository (Submit tugas)
+
+Copy link hasil fork repo kalian 
+
+![image](https://github.com/user-attachments/assets/c826bdf0-8e16-45c8-b93e-078249b5704a)
+
+setelah itu paste link fork repo kalian ke dalam channel discord rpn di #daftar-sini
+
+![image](https://github.com/user-attachments/assets/8b0a73ae-4f6f-4cdb-8f26-09a602943ba4)
+
+Next stepnya kita akan set up Programming Editor menggunakan VSCode
 # VSCode  
 ![image](https://github.com/user-attachments/assets/0f51172b-e366-409c-9ddd-5f9380f74974)
 
