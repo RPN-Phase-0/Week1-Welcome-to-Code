@@ -31,7 +31,7 @@ Selamat datang di RPN Phase-0 Week 1! Repo ini dibuat khusus untuk pemula yang i
 ## DAFTAR RPN
 
 Bagi yang belum daftar rpn kalian wajib melakukan fork dan pr pertama pada week1
-- - [Apa saja yang harus disiapkan](./study-materials/daftarRpn.md)
+- [Apa saja yang harus disiapkan](./study-materials/daftarRpn.md)
 
 ## Week 1 Study Materials
 - [Apa saja yang harus disiapkan](./study-materials/part1.md)
