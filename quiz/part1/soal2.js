@@ -13,7 +13,7 @@
 
 let tanggal = 12; // assign nilai variabel tanggal disini! (dengan angka antara 1 - 31)
 let bulan = 1; // assign nilai variabel bulan disini! (dengan angka antara 1 - 12)
-let tahun = 2001; // assign nilai variabel tahun disini! (dengan angka antara 1900 - 2200)
+let tahun = 2025; // assign nilai variabel tahun disini! (dengan angka antara 1900 - 2200)
 
 //code switch case kamu disini
 switch (bulan) {
@@ -57,4 +57,12 @@ switch (bulan) {
     bulan = "Bulan tidak valid";
 }
 
-console.log(tanggal + " " + bulan + " " + tahun);
+if (tanggal < 1 || tanggal > 31) {
+  console.log("Tanggal tidak valid");
+} else {
+  if (tahun < 1900 || tahun > 2200) {
+    console.log("Tahun tidak valid");
+  } else {
+    console.log(tanggal + " " + bulan + " " + tahun);
+  }
+}
