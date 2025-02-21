@@ -19,7 +19,7 @@
 //isi algoritma mu disini (AWAS KALO GA DI ISI!!!!)
 
 
-let nama = "Budiono Siregar", peran = "";
+let nama = "Budiono Siregar", peran = "Ksatria";
 
 if(nama == ""){
     console.log("nama wajib diisi: ");
