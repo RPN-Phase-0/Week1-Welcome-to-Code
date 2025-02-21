@@ -17,7 +17,35 @@
 
 // algoritma
 //isi algoritma mu disini (AWAS KALO GA DI ISI!!!!)
+//Mulai
 
+//Deklarasi variabel nama dan peran.
+//Validasi Nama
+
+//Jika nama kosong (""):
+//Tampilkan pesan: "nama wajib diisi".
+//Selesai (program berhenti).
+//Jika nama terisi:
+//Lanjut ke validasi peran.
+//Validasi Peran
+
+//Jika peran kosong (""):
+//Tampilkan pesan: "Pilih Peranmu untuk memulai game".
+//Selesai.
+//Jika peran terisi:
+//Lanjut ke pengecekan jenis peran.
+//Pengecekan Jenis Peran
+
+//Gunakan switch-case untuk mencocokkan nilai peran:
+//Case 1: Jika peran = "ksatria":
+//Tampilkan: halo Ksatria ${nama}, kamu dapat menyerang dengan senjatamu!.
+//Case 2: Jika peran = "Tabib":
+//Tampilkan: halo Tabib ${nama}, kamu akan membantu temanmu yang terluka.
+//Case 3: Jika peran = "Penyihir":
+//Tampilkan: halo Penyihir ${nama}, ciptakan keajaiban yang membantu kemenanganmu!.
+//Default (jika peran tidak valid):
+//Tampilkan: "tapi kayaknya kamu jadi bot aja ya, peran yang kamu pilih ga ada".
+//Selesai.
 
 let nama = "Ken Arok", peran = "ksatria";
 
