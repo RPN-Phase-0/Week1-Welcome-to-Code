@@ -32,6 +32,26 @@ yak Buka aja W3school dan kerjakan soal soal berikut
 let nama = "", peran = "";
 
 //code disini gunakan console.log untuk outputnya
+if (nama === "") {
+    console.log("Nama wajib diisi!");
+} 
+else if (peran === "") {
+    console.log("Pilih peranmu untuk memulai game");
+} 
+else {
+    if (peran === "Ksatria") {
+        console.log(`Halo Ksatria ${nama}, kamu dapat menyerang dengan senjatamu!`);
+    } 
+    else if (peran === "Tabib") {
+        console.log(`Halo Tabib ${nama}, kamu akan membantu temanmu yang terluka`);
+    } 
+    else if (peran === "Penyihir") {
+        console.log(`Halo Penyihir ${nama}, ciptakan keajaiban yang membantu kemenanganmu!`);
+    } 
+    else {
+        console.log("Tapi kayaknya kamu jadi bot aja ya, peran yang kamu pilih ga ada");
+    }
+}  
 
 ```
 
@@ -51,10 +71,38 @@ let nama = "", peran = "";
 //dan mulailah membaca dan mencontek di stackoverflow xixixi
 
 let tanggal = 12; // assign nilai variabel tanggal disini! (dengan angka antara 1 - 31)
-let bulan = "februari"; // assign nilai variabel bulan disini! (dengan angka antara 1 - 12)
+let bulan = 2; // assign nilai variabel bulan disini! (dengan angka antara 1 - 12)
 let tahun = 2001; // assign nilai variabel tahun disini! (dengan angka antara 1900 - 2200)
 
 //code switch case kamu disini
+if(tahun < 1990 || tahun > 2200){
+    console.log("Tahun harus berada diantara 1900 - 2200");
+}
+else if(tanggal <1 || tanggal > 31){
+    console.log("Tanggal harus berada di antara 1 - 31");
+}
+else{
+    let namaBulan = "";
+
+    switch (bulan){
+        case 1: namaBulan = "Januari"; break;
+        case 2: namaBulan = "Febuari"; break;
+        case 3: namaBulan = "Maret"; break;
+        case 4: namaBulan = "April"; break;
+        case 5: namaBulan = "Mei"; break;
+        case 6: namaBulan = "Juni"; break;
+        case 7: namaBulan = "Juli"; break;
+        case 8: namaBulan = "Agustus"; break;
+        case 9: namaBulan = "September"; break;
+        case 10: namaBulan = "Oktober"; break;
+        case 11: namaBulan = "November"; break;
+        case 12: namaBulan = "Desember"; break;
+        default:
+            console.log("Bulan Tidak valid! Harus diantara 1 - 12");
+            return;
+    }
+    console.log(`${tanggal},${bulan},${tahun}`);
+}
 ```
 
 ---
