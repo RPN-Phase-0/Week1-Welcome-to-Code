@@ -31,6 +31,7 @@ yak Buka aja W3school dan kerjakan soal soal berikut
 
 let nama = "", peran = "";
 
+
 //code disini gunakan console.log untuk outputnya
 
 ```
