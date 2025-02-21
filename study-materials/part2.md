@@ -237,3 +237,7 @@ Algoritma kompleks ini akan kalian pelajari di phase 1 nanti !.
 ## Other Source
 
 [Apa itu algoritma pemrograman by WPU](https://youtu.be/uqVJc9lLknA?si=-_BqdNZQS5xcCQrd)
+
+[Computer Science Basics: Algorithms by LearnFree](https://www.youtube.com/watch?v=kM9ASKAni_s&t=37s)
+
+[Algorithms by geeksforgeeks](https://www.geeksforgeeks.org/fundamentals-of-algorithms/)
