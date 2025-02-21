@@ -87,8 +87,58 @@ Jika sudah selesai, kalian akan langsung redirect ke dashboard github akun kalia
 
 untuk sekarang step github sampai buat akun saja, nanti kita lanjut di part 4 untuk buat repo pertama kalian dan commit pertama di git.
 
-Next stepnya kita akan set up Programming Editor menggunakan VSCode
+# Daftar RPN (Fork Repo Pertama)
 
+Sekarang kalian perlu melakukan Fork pada repo week1 phase 0 dan melakukan pull request untuk monitoring progress tugas kalian di komunitas RPN.
+
+Fork repository di GitHub adalah proses membuat salinan independen dari repository milik orang lain ke akun GitHub kita sendiri. Ini merupakan fitur penting dalam pengembangan software kolaboratif. Mari saya jelaskan lebih detail:
+
+Konsep Dasar Fork:
+1. Fork menciptakan salinan lengkap repository asli, termasuk semua file, commit history, dan branches
+2. Repository hasil fork akan muncul di akun GitHub Kalian dengan referensi ke repository asli
+3. Kalian memiliki kontrol penuh atas repository hasil fork dan dapat melakukan perubahan tanpa mempengaruhi repository asli
+
+Kegunaan Fork:
+1. Berkontribusi ke proyek open source - Fork memungkinkan Kalian mengusulkan perubahan melalui Pull Request
+2. Menggunakan proyek yang ada sebagai starting point untuk proyek baru Kalian
+3. Bereksperimen dengan kode tanpa mempengaruhi proyek asli
+4. Menyimpan snapshot dari proyek yang mungkin berubah di masa depan
+
+## Step by step Fork Repository Phase0 week1 
+
+Pertama kalian pergi ke repo : https://github.com/RPN-Phase-0/Week1-Welcome-to-Code
+
+dan dipojok kanan atas ada button "fork", klik button forknya
+
+<img width="1728" alt="Screenshot 2025-02-20 at 21 11 07" src="https://github.com/user-attachments/assets/99d14b8b-48f3-47fc-a59b-c9b245c18ed4" />
+
+setelah itu kalian akan masuk kedalam section pembuatan fork untuk repo week1 welcome to code.
+
+langsung saja kalian bisa klik button hijau dibawah "Create Fork".
+
+![image](https://github.com/user-attachments/assets/085aa132-49c5-4812-b9bc-f1dcd1d42984)
+
+Setelah kalian klik create fork, github akan melakukan progress fork repository rpn ke akun github kalian.
+
+Hasilnya, kalian akan punya bentuk repo Week1-Welcome-to-Code didalam akun kalian sendiri
+
+![image](https://github.com/user-attachments/assets/d9a9bc58-84cb-42dd-8f46-869c48150bcc)
+
+Setelah melakukan fork, Kalian bisa:
+1. Clone repository hasil fork ke komputer lokal
+2. Membuat perubahan dan melakukan commit
+3. Push perubahan ke repository fork Kalian
+4. Membuat Pull Request ke repository (Submit tugas)
+
+Copy link hasil fork repo kalian 
+
+![image](https://github.com/user-attachments/assets/c826bdf0-8e16-45c8-b93e-078249b5704a)
+
+setelah itu paste link fork repo kalian ke dalam channel discord rpn di #daftar-sini
+
+![image](https://github.com/user-attachments/assets/8b0a73ae-4f6f-4cdb-8f26-09a602943ba4)
+
+Next stepnya kita akan set up Programming Editor menggunakan VSCode
 # VSCode  
 ![image](https://github.com/user-attachments/assets/0f51172b-e366-409c-9ddd-5f9380f74974)
 
@@ -229,9 +279,175 @@ setelah itu enter
 
 Congrats!!! ini adalah experience ngoding pertama kalian. Hello World ini sangat krusial bagi para pemula, disinilah gerbang start kalian untuk belajar menjadi Software Engineer.
 
-Ikutin terus Next Part, karena kalian sudah memasuki fase ngoding javascript.
+# Submit Tugas RPN (PR Pertama)
+
+Pull Request (PR) adalah fitur di GitHub yang memungkinkan Kalian mengusulkan perubahan kode dari repository fork atau branch Kalian ke repository utama. Ini adalah cara utama untuk berkolaborasi dalam pengembangan software. Mari saya jelaskan secara detail:
+
+Konsep Dasar Pull Request:
+1. PR memungkinkan Kalian menunjukkan perubahan yang telah Kalian buat dan meminta maintainer repository untuk mereview dan mengintegrasikan perubahan tersebut
+2. PR bisa berisi penambahan fitur, perbaikan bug, atau peningkatan dokumentasi
+3. PR memfasilitasi diskusi dan review kode sebelum perubahan digabungkan ke repository utama
+
+Langkah membuat Pull Request:
+1. Buat branch baru atau fork repository
+2. Lakukan perubahan dan commit ke branch/fork Kalian
+3. Push perubahan ke GitHub
+4. Kunjungi repository asli di GitHub
+5. Klik "New Pull Request"
+6. Pilih branch sumber (branch Kalian) dan branch tujuan
+7. Isi judul dan deskripsi PR dengan jelas
+8. Submit Pull Request
+
+Best Practice Pull Request:
+1. Buat judul yang deskriptif dan jelas
+2. Berikan deskripsi yang menjelaskan:
+   - Apa yang diubah
+   - Mengapa perubahan diperlukan
+   - Bagaimana cara menguji perubahan
+3. Tambahkan screenshot jika ada perubahan visual
+4. Pastikan kode sudah ditest dengan baik
+5. Respond terhadap review dan feedback dengan sopan
+
+Proses Review Pull Request:
+1. Maintainer akan mereview perubahan kode
+2. Mereka bisa memberikan komentar atau meminta perubahan
+3. Kalian bisa melakukan update berdasarkan feedback
+4. Setelah disetujui, PR akan di-merge ke repository utama (Case di RPN PR kalian tidak perlu di merge)
+
+Status Pull Request:
+- Open: PR masih dalam proses review
+- Closed: PR ditolak atau tidak dilanjutkan
+- Merged: PR diterima dan digabungkan ke repository utama
 
 
+## Clone Tugas Pertama 
+
+Bagi yang belum cloning repository nya di local, kalian wajib melakukan clone repo terlebih dahulu. Agar kalian bisa mengerjakan tugas tugas RPN di laptop kalian sendiri.
+
+pergi ke repo fork kalian (hasil fork diatas) : https://github.com/zexoverz/Week1-Welcome-to-Code (contoh)
+
+Setelah itu klik bagian button hijau (code), nanti kalian bisa copy command cloning repository fork week1.
+
+
+<img width="1728" alt="Screenshot 2025-02-20 at 21 29 46" src="https://github.com/user-attachments/assets/99a80190-4991-449e-8ece-a7c4f511db1e" />
+
+Setelah kalian copy, kalian balik lagi ke vscode . Buka terminal vs code dan tulis command git clone [paste]
+
+contohnya seperti ini :
+
+`git clone https://github.com/zexoverz/Week1-Welcome-to-Code.git`
+
+Disini gua masih didalam folder belajar-pertama, jadi kita akan memasukan cloningan repo week1 kedalam belajar-pertama.
+
+Kalian bebas mau cloning di folder mana aja di local kalian. Cuman gua disini mencontohkan memakai folder belajar-pertama.
+
+![image](https://github.com/user-attachments/assets/c2703baa-cf70-4d7f-9c07-1b98ab1c45f9)
+
+Nah, setelah selesai cloning. Maka kalian punya folder git repo Week1-Welcome-to-Code
+
+![image](https://github.com/user-attachments/assets/598b12b4-1bed-4630-b4d3-e0fb63ef7e67)
+
+lakukan change directory ke dalam repo Week1-Welcome-to-Code , dengan command:
+
+`cd Week1-Welcome-to-Code/`
+
+nah sekarang kalian sudah didalam directory week1.
+
+Kalo cara gua untuk mengerjakan, kalian tinggal memasuki quiz quiz yang mau kalian kerjain. Misalkan disini gua mau ngerjain quiz part 1.
+
+kita tinggal masuk kedalem part 1
+
+`cd quiz/part1`
+
+dan buat file soal.js nya didalam folder itu 
+
+![image](https://github.com/user-attachments/assets/c1dc57a9-69e4-4f2c-aec3-ec24b9b194fd)
+
+setelah itu kalian copas quiz nya kedalam file js yang sudah kalian buat.
+
+![image](https://github.com/user-attachments/assets/61674df1-bb43-447a-b318-37fe0a538927)
+
+Nah disini kalian sudah bisa mengerjakan quiz nya!.
+
+## Submit Tugas
+
+setelah kalian melakukan perubahan pada code, dan menyelesaikan quiznya.
+
+maka git local kalian wajib melakukan commit & push ke dalam repo fork kalian.
+
+contohnya disini gua tambahin line : `//CONTOH SOAL SELESAI`
+
+![image](https://github.com/user-attachments/assets/922bb36a-6e77-4a09-8ebe-6e48110d09a9)
+
+Kalau kalian sadar, VS Code kita menandakan warna hijau pada soal1.js yang baru saja dibuat.
+ini adalah bentuk perubahan history yang di versioning oleh git.
+
+Sekarang waktunya commit & push perubahannya , agar fork repo kalian mempunyai versi yang sesuai dengan local kalian.
+
+sebelum kita push kalian harus konfigurasi git profile di local :
+
+`git config --global user.name "Username github"`
+`git config --global user.email emailKalian@github.com`
+
+![image](https://github.com/user-attachments/assets/7bcc03da-331c-4a5d-9c7c-34d442643314)
+
+
+setelah konfigurasi selesai kalian bisa lanjut untuk commit & push.
+
+Ketik command :
+
+`git add .` -> melakukan penambahan perubahan ke staging (finalisasi)
+
+`git commit -m "Submit tugas pertama"` -> Memasukan peurbahan staging ke dalam hashcode (commit)
+
+`git push origin main` -> push commit ke dalam branch main (fork repo).
+
+Disini gua contohkan push ke main branch, best practicenya kalian membuat branch sendiri terpisah (optional).
+
+setelah kalian push, maka hasilnya seperti ini :
+
+![image](https://github.com/user-attachments/assets/a8561f8c-e864-4429-9b3b-9cd6a782f948)
+
+sekarang buka github kalian dan pergi ke link fork repo week1.
+
+di contoh gua : https://github.com/zexoverz/Week1-Welcome-to-Code
+
+nah kalian bisa pergi ke tab "Pull Requests" dan klik button hijau New Pull Request
+
+![image](https://github.com/user-attachments/assets/57688261-8860-405c-b8bd-f14ba7f737c3)
+
+setelah itu github akan otomatis melakukan komparasi terhadap fork repo kalian dengan repo asli RPN.
+
+selanjutnya tinggal klik create pull request
+
+![image](https://github.com/user-attachments/assets/ee7db659-44e1-4938-81bc-d5ea7045f600)
+
+
+Isi title dengan username/nama kalian. setelah itu klik create pull request
+
+![image](https://github.com/user-attachments/assets/57f509e9-c944-40b6-a007-52d17a5e6c09)
+
+Congrats, kalian sudah submit tugas pertama di RPN
+
+![image](https://github.com/user-attachments/assets/da84dfc3-b10e-42fb-ae2a-07b857a2befa)
+
+selanjutnya, kalian tidak perlu lagi PR untuk submit soal kedua atau part 2 di week1.
+kalian tinggal ulangi saja proses commit & push nya.
+
+dan kalian bisa lihat history pengumpulan tugas kalian di PR bagian commits
+
+![image](https://github.com/user-attachments/assets/486bb8ef-d985-4da1-b9ad-beb7dc1fa6c4)
+
+Nah disinilah para mentor akan mereview tugas kalian menggunakan sistem pull request dari github.
+Mentor juga bakal ngasih feedback berupa comment di PR kalian.
+
+Kalian akan melakukan Fork & PR ulang, jika kalian sudah lanjut ke week2. 
+
+Karena RPN memisahkan 1 Repo = 1 Week.
+
+Jadi jika Phase 0 punya 4 Week , maka kalian harus fork 4 repo dan 4 PR.
+
+`Welcome to RPN World, Let's Code ALL CHALLANGES !!!`
 
 ----------------------------------------------------
 video tutorial materi ini, biar lebih paham: [Part 1](https://youtu.be/2zpsV_00pWc)
