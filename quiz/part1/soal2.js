@@ -1,5 +1,5 @@
-let tanggal = 32,
-  bulan = 14,
+let tanggal = 31,
+  bulan = 12,
   tahun = 1900;
 
 switch (bulan) {
