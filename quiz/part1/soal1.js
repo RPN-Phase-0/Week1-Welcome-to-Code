@@ -21,26 +21,22 @@
 console.log("Selamat datang di Game Proxytia!");
 console.log("================================");
 
-let nama = "";
-let peran = "";
+let nama = "Ryuko";
+let peran = "Penyihir";
 
 if (nama === "") {
     console.log("nama wajib diisi");
 } else if (peran === "") {
     console.log("Pilih Peranmu untuk memulai game");
 } else {
-    switch (peran) {
-        case "Ksatria":
-            console.log("halo Ksatria " + nama + ", kamu dapat menyerang dengan senjatamu!");
-            break;
-        case "Tabib":
-            console.log("halo Tabib " + nama + ", kamu akan membantu temanmu yang terluka");
-            break;
-        case "Penyihir":
-            console.log("halo Penyihir " + nama + ", ciptakan keajaiban yang membantu kemenanganmu!");
-            break;
-        default:
-            console.log("tapi kayaknya kamu jadi bot aja ya, peran yang kamu pilih ga ada");
+    if (peran === "Ksatria") {
+        console.log("Halo Ksatria " + nama + ", kamu dapat menyerang dengan senjatamu!");
+    } else if (peran === "Tabib") {
+        console.log("Halo Tabib " + nama + ", kamu akan membantu temanmu yang terluka");
+    } else if (peran === "Penyihir") {
+        console.log("Halo Penyihir " + nama + ", ciptakan keajaiban yang membantu kemenanganmu!");
+    } else {
+        console.log("Tapi kayaknya kamu jadi bot aja ya, peran yang kamu pilih ga ada!");
     }
 }
 
