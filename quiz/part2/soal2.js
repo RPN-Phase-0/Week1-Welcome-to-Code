@@ -14,4 +14,4 @@ for (let i = 0; i < word.length; i++) {
   completeWord += word[i];
 }
 
-console.log("The Word Id : " + completeWord);
+console.log("The Word Is : " + completeWord);
