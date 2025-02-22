@@ -19,18 +19,16 @@
 
 // algoritma
 //isi algoritma mu disini (AWAS KALO GA DI ISI!!!!)
-
-
 let peranchoise = ['Tabib', 'Ksatria', 'Penyihir']
 
 let nama = "sakyy"
-let peran = peranchoise[0];
+let peran = peranchoise[1];
 
 if (nama == ""){
     console.log('Nama tidak boleh kosong');
 }
 else {
-    if(peran == "") {
+    if(!peran) {
         console.log("Pilih peranmu untuk melanjutkan");
     }else{
         switch (peran) {
@@ -40,14 +38,10 @@ else {
                 console.log(`halo ${peran} ${nama}, Kamu dapat menyerang dengan senjatamu!!`);
             case peranchoise[2]:
                 console.log(`halo ${peran} ${nama}, ciptakan keajadiban yang membantu kemenangan`);
+            break;
+            
         }
     }
 
 }
-
-
-
-
-
-
 //code disini gunakan console.log untuk outputnya
