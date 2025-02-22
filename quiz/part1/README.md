@@ -7,14 +7,15 @@ singkatnya sih disini belajar if else, namun nanti ada soal yang dimana kamu har
 yak Buka aja W3school dan kerjakan soal soal berikut
 
 ## Soal 1:
+
 ```js
-// Kamu diminta untuk memprogram suatu game sederhana, Proxytia namanya. 
-// Untuk memulai game itu diperlukan 2 variabel (untuk sekarang), 
-// yaitu nama dan peran. Variabel peran harus memiliki isi data, 
+// Kamu diminta untuk memprogram suatu game sederhana, Proxytia namanya.
+// Untuk memulai game itu diperlukan 2 variabel (untuk sekarang),
+// yaitu nama dan peran. Variabel peran harus memiliki isi data,
 // bila nama kosong, pemain akan diberikan peringatan berupa "nama wajib diisi"
-// bila kosong pemain akan diberikan peringatan berupa "Pilih Peranmu untuk memulai game". 
-// Terdapat 3 peran berbeda yaitu Ksatria, Tabib, dan Penyihir. 
-// Tugas Anda adalah untuk membuat program yang mengecek isi variabel 
+// bila kosong pemain akan diberikan peringatan berupa "Pilih Peranmu untuk memulai game".
+// Terdapat 3 peran berbeda yaitu Ksatria, Tabib, dan Penyihir.
+// Tugas Anda adalah untuk membuat program yang mengecek isi variabel
 // peran serta mengeluarkan respon sesuai isi variabel tersebut.
 //ada 4 jenis respons sesuai dengan 3 jenis peran yaitu
 //halo Ksatria ${nama} , kamu dapat menyerang dengan senjatamu!
@@ -27,15 +28,27 @@ yak Buka aja W3school dan kerjakan soal soal berikut
 
 // algoritma
 //isi algoritma mu disini (AWAS KALO GA DI ISI!!!!)
+let nama = "ravnov";
+let peran = "Ksatria";
 
-
-let nama = "", peran = "";
-
+if (nama === "") {
+  console.log("Nama wajib  diisi");
+} else if (peran === "") {
+  console.log("Pilih peranmu untuk memulai game");
+} else if (peran === "Ksatria") {
+  console.log(`halo Ksatria ${nama} , kamu dapat menyerag denagn senjatamu!`);
+} else if (peran === "Tabib") {
+  console.log(`halo Tabib ${nama} , kamu akan membantu temanmu yang terluka`);
+} else if (peran === "Penyihir") {
+  console.log(`halo Penyihir ${nama} , ciptakan keajaiban yang membantu kemenanganmu!`);
+} else {
+  console.log("tapi kayaknya kamu jadi bot aja ya, peran yang kamu pilih ga ada ");
+}
 //code disini gunakan console.log untuk outputnya
-
 ```
 
 ## Soal 2
+
 ```js
 // Kamu akan diberikan sebuah tanggal dalam tiga variabel, yaitu hari, bulan, dan tahun. Disini kamu diminta untuk membuat format tanggal. Misal tanggal yang diberikan adalah hari 1, bulan 5, dan tahun 1945. Maka, output yang harus kamu proses adalah menjadi 1 Mei 1945.
 
@@ -55,11 +68,55 @@ let bulan = "februari"; // assign nilai variabel bulan disini! (dengan angka ant
 let tahun = 2001; // assign nilai variabel tahun disini! (dengan angka antara 1900 - 2200)
 
 //code switch case kamu disini
+let hari = 21;
+let bulan = 1;
+let tahun = 1945;
+
+switch (bulan) {
+  case 1:
+    namaBulan = "Januari";
+    break;
+  case 2:
+    namaBulan = "Februari";
+    break;
+  case 3:
+    namaBulan = "Maret";
+    break;
+  case 4:
+    namaBulan = "April";
+    break;
+  case 5:
+    namaBulan = "Mei";
+    break;
+  case 6:
+    namaBulan = "Juni";
+    break;
+  case 7:
+    namaBulan = "Juli";
+    break;
+  case 8:
+    namaBulan = "Agustus";
+    break;
+  case 9:
+    namaBulan = "September";
+    break;
+  case 10:
+    namaBulan = "Oktober";
+    break;
+  case 11:
+    namaBulan = "November";
+    break;
+  default:
+    namaBulan = "Desember";
+    break;
+}
+console.log(`${hari} ${namaBulan} ${tahun}`);
 ```
 
 ---
+
 video biar rada paham lah, soalnya ini awal kepahitan ngoding wkwk:
 
 [Video tutor by Harkon](https://youtu.be/-YlMePibR6Y)
 
-*sisanya kalian googling aja ya ges yak*
+_sisanya kalian googling aja ya ges yak_
