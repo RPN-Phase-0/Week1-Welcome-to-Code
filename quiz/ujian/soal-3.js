@@ -3,7 +3,7 @@ function konversiMenit(menit){
     let jam = Math.floor(menit / 60);
     let sisa = (menit % 60).toString().padStart(2, "0");
 
-    return console.log (`${jam}:${sisa}`)
+    return `${jam}:${sisa}`;
 }
 console.log(konversiMenit(63)); // 1:03
 console.log(konversiMenit(124)); // 2:04
