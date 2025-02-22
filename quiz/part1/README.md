@@ -87,7 +87,7 @@ let bulan = "februari"; // assign nilai variabel bulan disini! (dengan angka ant
 let tahun = 2001; // assign nilai variabel tahun disini! (dengan angka antara 1900 - 2200)
 
 //code switch case kamu disini
-```
+
 function numberToDate(date, month, year){
     if((date >= 1 && date <= 31) && (month >= 1 && month <= 12) && (year >= 1900 && year <= 2200)){
         const monthArr=['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Juli', 'Agustus', 'September', 'Oktober', 'November', 'Desember'];
@@ -105,6 +105,8 @@ numberToDate(12,2,2001);
 numberToDate(12,13,2001);
 numberToDate(-12,2,2001);
 numberToDate(12,2,-2001);
+```
+
 
 ---
 video biar rada paham lah, soalnya ini awal kepahitan ngoding wkwk:
