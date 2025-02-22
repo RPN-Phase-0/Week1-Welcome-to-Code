@@ -18,6 +18,11 @@ let sixth = 'love';
 let seventh = 'it!';
 
 //code here
+const gabung1 = `${word} ${second} ${third} ${fourth} ${fifth} ${sixth} ${seventh}`;
+console.log(gabung1);
+
+const gabung2 = word + ' ' + second + ' ' + third + ' ' + fourth + ' ' + fifth + ' ' + sixth + ' ' + seventh;
+console.log(gabung2);
 ```
 ## Soal 2. Index Accessing - 1 by 1
 ```js
