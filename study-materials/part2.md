@@ -23,7 +23,7 @@ YA KALIAN TIDAK AKAN BISA MELAKUKANNYA JIKA TIDAK TAHU ALGORITMA !
 
 bahkan tanpa ngoding pun dan hanya memecahkan masalahnya saja di pikiran kita, manusia akan susah sekali memecahkan masalah ini jika tidak tahu algoritmanya.
 
-RPN ini menjungjung tinggi foundation dan logic. Cara berfikir kalian akan sangat diasah disini dan algoritma adalah segalanya bagi kita.
+RPN ini menjunjung tinggi foundation dan logic. Cara berfikir kalian akan sangat diasah disini dan algoritma adalah segalanya bagi kita.
 
 ## Apa itu algoritma ? 
 
