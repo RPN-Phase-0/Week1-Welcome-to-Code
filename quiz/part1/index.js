@@ -1,6 +1,6 @@
 let nama = "Harry";
 let roles = ["master php(pemberi harapan palsu)", "pemburu janda muda", "Pemikat Istri orang Lain"];
-let peran = roles[Math.floor(Math.random() * roles.length)]; // Pilih peran secara acak
+let peran = roles[Math.floor(Math.random() * roles.length)]; 
 let tanggal = Math.floor(Math.random() * 31) + 1;
 let bulan = Math.floor(Math.random() * 12) + 1;
 let tahun = Math.floor(Math.random() * (2200 - 1900 + 1)) + 1900;
