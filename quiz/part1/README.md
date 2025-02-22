@@ -28,8 +28,28 @@ yak Buka aja W3school dan kerjakan soal soal berikut
 // algoritma
 //isi algoritma mu disini (AWAS KALO GA DI ISI!!!!)
 
+// proxytia start
+let nama = "Naufal", peran = "Kesatria";
 
-let nama = "", peran = "";
+if (nama === "") {
+    console.log("nama harus diisi!");
+}
+if (peran === "") {
+    console.warn("Pilih Peranmu untuk memulai game");
+}
+function CekPeran() {
+    if (peran === "Kesatria") {
+        console.log(`halo Ksatria ${nama}, kamu dapat menyerang dengan senjatamu!`);
+    }else if(peran === "Tabib"){
+        console.log(`halo Tabib ${nama} , kamu akan membantu temanmu yang terluka`);
+    }else if(peran === "Penyihir"){
+        console.log(`halo Penyihir ${nama} , ciptakan keajaiban yang membantu kemenanganmu!`);
+    }else{
+        console.log(`lu jadi bot ajadah ${nama}, gak pilih peran soalnya`)
+    }
+    return peran;
+}
+CekPeran();
 
 //code disini gunakan console.log untuk outputnya
 
@@ -54,7 +74,21 @@ let tanggal = 12; // assign nilai variabel tanggal disini! (dengan angka antara 
 let bulan = "februari"; // assign nilai variabel bulan disini! (dengan angka antara 1 - 12)
 let tahun = 2001; // assign nilai variabel tahun disini! (dengan angka antara 1900 - 2200)
 
-//code switch case kamu disini
+  switch (bulan) {
+    case "januari": console.log(`'${tanggal} januari ${tahun}'`);
+    case "februari": console.log(`'${tanggal} februari ${tahun}'`);break;
+    case "maret": console.log(`'${tanggal} maret ${tahun}'`);break;
+    case "april": console.log(`'${tanggal} april ${tahun}'`);break;
+    case "mei": console.log(`'${tanggal} mei ${tahun}'`);break;
+    case "juni": console.log(`'${tanggal} juni ${tahun}'`);break;
+    case "juli": console.log(`'${tanggal} juli ${tahun}'`);break;
+    case "agustus": console.log(`'${tanggal} agustus ${tahun}'`);break;
+    case "september": console.log(`'${tanggal} september ${tahun}'`);break;
+    case "oktober": console.log(`'${tanggal} okktober ${tahun}'`);break;
+    case "november": console.log(`'${tanggal} november ${tahun}'`);break;
+    case "desember": console.log(`'${tanggal} desember ${tahun}'`);break;
+    default: console.log("bulan tidak diketahui");
+}
 ```
 
 ---
