@@ -4,7 +4,7 @@
 // Contoh, jika menit adalah 63, maka function akan me-return "1:03".
 
 function konversiMenit(menit) {
-  var jam = Math.floor(menit / 60);
+  let jam = Math.floor(menit / 60);
   return jam + ":" + (menit % 60 < 10 ? "0" + (menit % 60) : menit % 60);
 }
 

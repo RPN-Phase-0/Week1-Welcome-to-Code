@@ -5,8 +5,8 @@
 let kata = "John Doe";
 
 function balikKata(kata) {
-  var reversed = "";
-  for (var i = kata.length - 1; i >= 0; i--) {
+  let reversed = "";
+  for (let i = kata.length - 1; i >= 0; i--) {
     reversed += kata[i];
   }
   return reversed;
