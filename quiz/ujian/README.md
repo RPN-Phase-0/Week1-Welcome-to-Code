@@ -4,7 +4,7 @@
 ***KERJAKAN DENGAN SESUAI TEST-CASE NYA***
 
 
-## Soal 1
+## Soal 1 (selesai)
 ```js
 // Problem
 // Diberikan sebuah function bandingkanAngka(angka1, angka2) yang menerima dua parameter angka. 
@@ -23,7 +23,7 @@ function bandingkanAngka(angka1, angka2) {
   console.log(bandingkanAngka(17, 2)); // false
 
 ```
-## Soal 2
+## Soal 2 (selesai)
 ```js
 // Problem
 // Diberikan sebuah function balikKata(kata) yang menerima satu parameter berupa string. 
@@ -41,7 +41,7 @@ console.log(balikKata('Coding is my hobby')); // ybboh ym si gnidoC
 console.log(balikKata('Super')); // repuS
 
 ```
-## Soal 3
+## Soal 3 (selesai)
 ```js
 
 // Problem
@@ -61,7 +61,7 @@ console.log(konversiMenit(88)); // 1:28
 console.log(konversiMenit(120)); // 2:00
 ```
 
-## Soal 4
+## Soal 4 (selesai)
 ```js
 //   Problem
 //   Diberikan sebuah function xo(str) yang menerima satu parameter berupa string. 
