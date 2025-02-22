@@ -1,4 +1,4 @@
-# Conditional Statement | Part 1
+2# Conditional Statement | Part 1
 
 oke kawan-kawan, disini kalian akan belajar yang namanya Conditional Statement, Logical Operator, dan Comparisons Operator.
 
@@ -28,8 +28,40 @@ yak Buka aja W3school dan kerjakan soal soal berikut
 // algoritma
 //isi algoritma mu disini (AWAS KALO GA DI ISI!!!!)
 
+Alogirtma:
+1. Program akan memasukkan variable peran yang akan di cek di if-else statement
+2. jika variable peran memenuhi persyaratan(case-sensitive) maka program akan membuat dialognya
+3. setelah itu akan mengeluarkan output sesuai dialognya
+ 
 
-let nama = "", peran = "";
+Code:
+function pemilihanPeran(nama, peran){
+    let dialog;
+    if(peran === 'Ksatria'){
+        dialog = `halo Ksatria ${nama} , kamu dapat menyerang dengan senjatamu!`;
+    }else if(peran === 'Tabib'){
+        dialog = `halo Tabib ${nama} , kamu akan membantu temanmu yang terluka`;
+    }else if(peran === 'Penyihir'){
+        dialog = `halo Penyihir ${nama} , ciptakan keajaiban yang membantu kemenanganmu!`;
+    }else{
+        dialog = `tapi kayaknya kamu jadi bot aja ya, peran yang kamu pilih ga ada`;
+    }
+    console.log(dialog);
+}
+
+const nama1 = 'Harkon';
+const peran1 = 'Ksatria';
+const nama2 = 'Budi';
+const peran2 = 'Tabib';
+const nama3 = 'Siti';
+const peran3 = 'Penyihir';
+const nama4 = 'Rudi';
+const peran4 = 'Gtw';
+
+pemilihanPeran(nama1, peran1);
+pemilihanPeran(nama2, peran2);
+pemilihanPeran(nama3, peran3);
+pemilihanPeran(nama4, peran4);
 
 //code disini gunakan console.log untuk outputnya
 
