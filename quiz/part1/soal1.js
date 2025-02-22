@@ -11,9 +11,9 @@ function CekPeran() {
     if (peran === "Kesatria") {
         console.log(`halo Ksatria ${nama}, kamu dapat menyerang dengan senjatamu!`);
     }else if(peran === "Tabib"){
-        console.log(`halo Tabib ${nama} , kamu akan membantu temanmu yang terluka`);
+        console.log(`halo Tabib ${nama}, kamu akan membantu temanmu yang terluka`);
     }else if(peran === "Penyihir"){
-        console.log(`halo Penyihir ${nama} , ciptakan keajaiban yang membantu kemenanganmu!`);
+        console.log(`halo Penyihir ${nama}, ciptakan keajaiban yang membantu kemenanganmu!`);
     }else{
         console.log(`lu jadi bot ajadah ${nama}, gak pilih peran soalnya`)
     }

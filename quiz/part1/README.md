@@ -88,7 +88,7 @@ let tahun = 2001; // assign nilai variabel tahun disini! (dengan angka antara 19
     case "november": console.log(`'${tanggal} november ${tahun}'`);break;
     case "desember": console.log(`'${tanggal} desember ${tahun}'`);break;
     default: console.log("bulan tidak diketahui");
-  }
+}
 ```
 
 ---

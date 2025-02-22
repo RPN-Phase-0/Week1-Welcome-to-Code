@@ -12,7 +12,7 @@
 
 let tanggal = 12; // assign nilai variabel tanggal disini! (dengan angka antara 1 - 31)
 let bulan = "februari"; // assign nilai variabel bulan disini! (dengan angka antara 1 - 12)
-let tahun = 2001; // assign nilai variabel tahun disini! (dengan angka antara 1900 - 2200)
+let tahun = 2001; // assign nilai variabel tahun disini! (dengan angka antara 1900 - 2200) 
 
   switch (bulan) {
     case "januari": console.log(`'${tanggal} januari ${tahun}'`);
@@ -28,6 +28,6 @@ let tahun = 2001; // assign nilai variabel tahun disini! (dengan angka antara 19
     case "november": console.log(`'${tanggal} november ${tahun}'`);break;
     case "desember": console.log(`'${tanggal} desember ${tahun}'`);break;
     default: console.log("bulan tidak diketahui");
-  }
+}
 
 
