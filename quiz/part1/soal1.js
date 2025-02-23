@@ -19,7 +19,7 @@
 //isi algoritma mu disini (AWAS KALO GA DI ISI!!!!)
 
 let nama = "ijo"
-    peran = "pesulap";
+    peran = "assasin";
 if (nama === "") 
     console.log("nama wajib diisi")            
 if (peran === "") {
