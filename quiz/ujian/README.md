@@ -13,6 +13,13 @@
 
 function bandingkanAngka(angka1, angka2) {
   //code disini
+  if(angka2 > angka1){
+    return `true`;
+  }else if(angka2 < angka1){
+    return `false`;
+  }else{
+    return -1;
+  }
 }
   
   // TEST CASES
@@ -31,6 +38,11 @@ function bandingkanAngka(angka1, angka2) {
 
 function balikKata(kata) {
     // you can only write your code here!
+    let dibalik = '';
+    for(let i=kata.length-1;i>=0;i--){
+      dibalik += kata[i];
+    }
+    return dibalik;
 }
   
 // TEST CASES
