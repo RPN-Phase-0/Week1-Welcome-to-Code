@@ -28,13 +28,6 @@ yak Buka aja W3school dan kerjakan soal soal berikut
 // algoritma
 //isi algoritma mu disini (AWAS KALO GA DI ISI!!!!)
 
-Alogirtma:
-1. Program akan memasukkan variable peran yang akan di cek di if-else statement
-2. jika variable peran memenuhi persyaratan(case-sensitive) maka program akan membuat dialognya
-3. setelah itu akan mengeluarkan output sesuai dialognya
- 
-
-Code:
 function pemilihanPeran(nama, peran){
     let dialog;
     if(peran === 'Ksatria'){
