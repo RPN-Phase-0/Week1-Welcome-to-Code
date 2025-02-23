@@ -62,7 +62,19 @@ console.log(balikKata('Super')); // repuS
 // Contoh, jika menit adalah 63, maka function akan me-return "1:03".
 
 function konversiMenit(menit) {
-    // you can only write your code here!
+    if(menit<10){
+      return `0:0${menit}`;
+    }else if(menit<60){
+      return `0:${menit}`;
+    }
+
+    let jam = (menit/60).toFixed(0);
+    menit -= jam*60;
+    if(menit < 10){
+      return `${jam}:0${menit}`;
+    }
+    
+    return `${jam}:${menit}`;
 }
   
 // TEST CASES
