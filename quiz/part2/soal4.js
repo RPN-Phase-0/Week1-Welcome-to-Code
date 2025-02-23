@@ -1,0 +1,16 @@
+let word4 = 'wow JavaScript is so cool';
+let exampleFirstWord4 = word4.substring(0, 3);
+let firstWordLength = exampleFirstWord4.length;
+let exampleFirstWord5 = word4.substring(4, 14);
+let secondWordLength = exampleFirstWord4.length;
+let exampleFirstWord6 = word4.substring(15, 17);
+let thirdWordLength = exampleFirstWord4.length;
+let exampleFirstWord7 = word4.substring(18, 20);
+let fourthWordLength = exampleFirstWord4.length;
+let exampleFirstWord8 = word4.substring(21, 25);
+let fifthWordLength = exampleFirstWord4.length;
+console.log('First Word: ' + exampleFirstWord4 + ', with length: ' + firstWordLength);
+console.log('second word: ' + exampleFirstWord5 + ', with length: ' + secondWordLength);
+console.log('second word: ' + exampleFirstWord6 + ', with length: ' + secondWordLength);
+console.log('second word: ' + exampleFirstWord7 + ', with length: ' + secondWordLength);
+console.log('second word: ' + exampleFirstWord8 + ', with length: ' + secondWordLength);
