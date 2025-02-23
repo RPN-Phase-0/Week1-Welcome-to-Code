@@ -30,6 +30,11 @@ console.log('')
 let num1 = 1
 let num2 = 2
 
+function calculateMultiply(Num1, Num2){
+    return Num1 * Num2;
+}
+
+
 let hasilPerkalian = calculateMultiply(num1,num2);
 console.log(hasilPerkalian);
 
@@ -49,6 +54,10 @@ let name = "Agus";
 let age = 30;
 let address = "Jln. Malioboro, Yogjakarta";
 let hobby = "gaming";
+
+function processSentence(Name, Age, Address, Hobby){
+    return (`Nama saya ${Name}, umur saya ${Age} tahun, alamat saya di ${Address}, dan saya punya hobby yaitu ${Hobby}!`);
+}
 
 let fullSentence = processSentence(name,age,address,hobby);
 console.log(fullSentence); // Menampilkan "Nama saya Agus, umur saya 30 tahun, alamat saya di Jln. Malioboro, Yogjakarta, dan saya punya hobby yaitu gaming!"
