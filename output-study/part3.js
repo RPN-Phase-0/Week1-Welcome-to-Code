@@ -16,13 +16,41 @@ let gabung = `Nama = ${nama}
 Sekolah = ${sekolah}`;
 
 console.log(gabung)
-let Gender = "male"
+let Gender = "nonbinary"
 
 
 let gender = ["male", "female"];
 
-if (!gender.includes(Gender)){
-    console.log("Pegikau gay")
+if (!gender.includes(Gender)){ //if state operator NOT
+    console.log("Pegikau gay") 
 }else{
     console.log("kaum lurus")
 }
+
+console.log("gay" || gender.includes(Gender)) // Pakai operator OR daripada pake if state
+
+{
+    let pacaran = ["male","female"]
+    // function pasangan (pasangan1, pasangan2) {
+    //     if ([pasangan1,pasangan2] == (["male","female"] || ["female","male"])){
+    //         return "Oke" 
+    //     }
+    //     if ([pasangan1,pasangan2] == ["male","male"]) {
+    //         return "njir gay najis"
+    //     } if ([pasangan1,pasangan2] ==["female","female"]) {
+    //         return "Yaoi gila"
+    //     } 
+    // };
+    function pasangan(pasangan1, pasangan2) {
+        if ((pasangan1 === "male" && pasangan2 === "female") || (pasangan1 === "female" && pasangan2 === "male")) {
+            return "Oke";
+        } else if (pasangan1 === "male" && pasangan2 === "male") {
+            return "njir gay najis";
+        } else if (pasangan1 === "female" && pasangan2 === "female") {
+            return "Yaoi gila";
+        } else {
+            return "Pasangan tidak dikenali";
+        }
+    }
+    console.log(pasangan(pacaran[0],pacaran[1]));
+} // gabut sir
