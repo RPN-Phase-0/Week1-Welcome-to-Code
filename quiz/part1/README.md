@@ -30,6 +30,16 @@ yak Buka aja W3school dan kerjakan soal soal berikut
 
 function pemilihanPeran(nama, peran){
     let dialog;
+    if(nama === ''){
+        dialog = `nama wajib diisi`;
+        console.log(dialog);
+        return;
+    }else if(peran === ''){
+        dialog = `Pilih Peranmu untuk memulai game`;
+        console.log(dialog);
+        return;
+    }
+
     if(peran === 'Ksatria'){
         dialog = `halo Ksatria ${nama} , kamu dapat menyerang dengan senjatamu!`;
     }else if(peran === 'Tabib'){
