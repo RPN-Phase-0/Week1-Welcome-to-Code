@@ -1,3 +1,6 @@
+// Problem
+// Mirip seperti soal nomor 3, tapi tampilkan juga panjang kata masing-masingnya!
+
 let word = 'wow JavaScript is so cool';
 let exampleFirstWord = word.substring(0, 3);
 let secondWord = word.substring(4, 14);
