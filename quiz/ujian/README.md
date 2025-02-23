@@ -73,7 +73,7 @@ function konversiMenit(menit) {
     if(menit < 10){
       return `${jam}:0${menit}`;
     }
-    
+
     return `${jam}:${menit}`;
 }
   
@@ -93,6 +93,20 @@ console.log(konversiMenit(120)); // 2:00
 
 function xo(str) {
     // you can only write your code here!
+    let xCount = 0;
+    let oCount = 0;
+    for(let i=0;i<str.length;i++) {
+        if(str[i] === 'x'){
+            xCount++;
+        }else if(str[i] === 'o'){
+            oCount++;
+        }
+    }
+    if(xCount === oCount){
+        return `true`;
+    }
+
+    return `false`;
 }
   
 // TEST CASES
