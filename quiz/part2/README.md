@@ -79,13 +79,25 @@ console.log('Fifth Word: ' + fifthWord);
 // Problem
 // Mirip seperti soal nomor 3, tapi tampilkan juga panjang kata masing-masingnya!
 
-
 let word4 = 'wow JavaScript is so cool';
-let exampleFirstWord4 = word4.substring(0, 3);
 
-let firstWordLength = exampleFirstWord4.length;
+const firstWord = word4.substring(0,3);
+const secondWord = word4.substring(4, 14);
+const thirdWord = word4.substring(15, 17);
+const fourthWord = word4.substring(18, 20);
+const fifthWord = word4.substring(21, 25);
 
-console.log('First Word: ' + exampleFirstWord + ', with length: ' + firstWordLength);
+const firstWordLength = firstWord.length;
+const secondWordLength = secondWord.length;
+const thirdWordLength = thirdWord.length;
+const fourthWordLength = fourthWord.length;
+const fifthWordLength = fifthWord.length;
+
+console.log('First Word: ' + firstWord + ',with Length: ' + firstWordLength);
+console.log('Second Word: ' + secondWord + ',with Length: ' + secondWordLength);
+console.log('Third Word: ' + thirdWord + ',with Length: ' + thirdWordLength);
+console.log('Fourth Word: ' + fourthWord + ',with Length: ' + fourthWordLength);
+console.log('Fifth Word: ' + fifthWord + ',with Length: ' + fifthWordLength);
 ```
 
 tulis code sesuai dengan keterangan soalnya dan pola example yang ada
