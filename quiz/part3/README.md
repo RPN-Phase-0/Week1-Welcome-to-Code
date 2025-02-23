@@ -33,6 +33,19 @@ while(i>1){
 // Untuk membuat tantangan ini lebih menarik, kamu juga diminta untuk membuat suatu looping yang menghitung maju dan 
 // menghitung mundur. Jangan lupa tampilkan di console juga judul 'LOOPING PERTAMA' dan 'LOOPING KEDUA'.
 //tampilkan output yang menunjukan kalau looping itu maju pada looping pertama dan mundur pada looping kedua
+
+Code:
+console.log('LOOPING PERTAMA');
+for(let i=1;i<=10;i++){
+    console.log(i);
+}
+
+console.log('LOOPING KEDUA');
+for(let i=10;i>=1;i--){
+    console.log(i);
+}
+
+
 ```
 ## Soal 3. Angka Ganjil dan Genap
 
@@ -45,6 +58,15 @@ while(i>1){
 
 // Apabila angka counter adalah angka genap, tuliskan GENAP
 // Apabila angka counter adalah angka ganjil, tuliskan GANJIL
+
+Code:
+for(let i=1;i<=100;i++){
+    if(i%2 === 0){
+        console.log(`${i}=Genap`);
+    }else if(i%2 === 1){
+        console.log(`${i}=Ganjil`)
+    }
+}
 ```
 ## Soal 4. counter kelipatan
 ```js
@@ -65,6 +87,14 @@ let input = 5
 //***
 //****
 //*****
+
+for(let x = 0;x<input;x++){
+    let baris='';
+    for(let y=0;y<=x;y++){
+        baris += '*';
+    }
+    console.log(baris);
+}
 ```
 
 ---
