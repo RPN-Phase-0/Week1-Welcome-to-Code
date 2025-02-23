@@ -1,5 +1,5 @@
-let nama = "";
-let peran = "";
+let nama = "Vhey";
+let peran = "ksatria";
 
 if (nama === "") {
   console.log("Nama Wajib Diisi!");

@@ -1,35 +1,35 @@
 let hari = 27;
-let bulan = 5;
+let bulan = 02;
 let tahun = 2019;
 
 let formatedBulan;
 
 switch (bulan) {
-  case 1:
+  case 01:
     formatedBulan = "Januari";
     break;
-  case 2:
+  case 02:
     formatedBulan = "Februari";
     break;
-  case 3:
+  case 03:
     formatedBulan = "Maret";
     break;
-  case 4:
+  case 04:
     formatedBulan = "April";
     break;
-  case 5:
+  case 05:
     formatedBulan = "Mei";
     break;
-  case 6:
+  case 06:
     formatedBulan = "Juni";
     break;
-  case 7:
+  case 07:
     formatedBulan = "Juli";
     break;
-  case 8:
+  case 08:
     formatedBulan = "Agustus";
     break;
-  case 9:
+  case 09:
     formatedBulan = "Januari";
     break;
   case 10:
