@@ -18,12 +18,36 @@
 // algoritma
 //isi algoritma mu disini (AWAS KALO GA DI ISI!!!!)
 
+let nama = "ijo", peran = "penyihir";
+if 
 
-let nama = "adam", peran = "penyihir";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 //soal 2
 let tanggal = "6";
 let bulan = "mei";
 let tahun = "2008";
+
 
 //soal selesai sir
