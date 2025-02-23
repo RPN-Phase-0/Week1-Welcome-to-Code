@@ -1,6 +1,6 @@
 # Sepaham apakah kalian tentang fungsi? | Part 4
 
-## Soal 1
+## Soal 1 (selesai)
 ```js
 // Tugas 1
 // Buatlah sebuah fungsi bernama shoutOut(), yang mengembalikan nilai berupa "Halo Function!", 
@@ -16,7 +16,7 @@ console.log('')
 // ------------------------------------
 ```
 
-## Soal 2
+## Soal 2 (selesai)
 ```js
 // Buatlah sebuah fungsi bernama calculateMultiply(), yang mengembalikan nilai berupa hasil kali dari 
 // dua parameter yang dikirim.
@@ -33,7 +33,7 @@ console.log(hasilPerkalian);
 console.log('')
 // -----------------------------------
 ```
-## Soal 3
+## Soal 3 (selesai)
 ```js
 // Buatlah sebuah fungsi bernama processSentence(), yang akan memproses seluruh parameter yang diinput menjadi 
 // satu kalimat berikut: 
