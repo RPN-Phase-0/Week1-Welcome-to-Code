@@ -17,7 +17,7 @@ console.log('')
 ```
 
 ## Soal 2
-```js
+
 // Buatlah sebuah fungsi bernama calculateMultiply(), yang mengembalikan nilai berupa hasil kali dari 
 // dua parameter yang dikirim.
 
